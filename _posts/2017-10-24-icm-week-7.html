@@ -25,7 +25,7 @@ author:
 
 ---
 <p>This week we talked about APIs and how we can utilize information from the internet. Specifically, I worked with using the <a href="https://developers.giphy.com">Giphy API</a> to make my last week's DOM project more variable and exciting. Now my sketch will use Giphy's database to pull up cute cat and dog gifs. There is honestly some weird stuff when you query "cat + dog", but that's based on how Giphy categorizes the gifs. Most of it is of actually cats and dogs (sorry if weird stuff pops up). <a href="https://beverlychou.com/ICM/W7-p5-cat-dog-gif-slider-giphy-api/">Click here to view my improved cat/dog gif slider website.</a></p>
-<p><img src="{{ site.baseurl }}/assets/Screen-Shot-2017-10-24-at-2.20.38-AM.png" alt=""/></p>
+<p><img src="{{ site.baseurl }}/assets/old-wp-content/Screen-Shot-2017-10-24-at-2.20.38-AM.png" alt=""/></p>
 <p><!--more--></p>
 <p>In my code, I've used the loadJSON() function and then used callback functions to give a name to each set of data I've queried. From there, I used a process similar to last week to randomly select a gif. The only difference was that I needed to use "newGif = giphyLeftData.data[gifIndex].images.fixed_height.url" to access the url for the gif. Giphy has a really nice option to pick gif urls for gifs that all have a height of 200px. This has helped eliminate some inconsistency in my website's formatting. The code I used in my p5.js sketch is shown below.</p>
 <p><script src="https://gist.github.com/bevchou/cec280a8837c63e7c9a1a8d900d1d414.js"></script></p>
