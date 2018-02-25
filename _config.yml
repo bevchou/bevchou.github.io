@@ -39,7 +39,6 @@ exclude:
 
 # Third-party services
 # just leave someone empty to disable it
-# google_analytics:
 disqus_shortname: bevchou
 
 # used this for post_excerpt at index_page
