@@ -29,6 +29,7 @@ input: GFM
 include:
   - "_pages"
   - "assets"
+  - "about.md"
 exclude:
   - "Gemfile"
   - "Gemfile.lock"
@@ -42,4 +43,4 @@ exclude:
 disqus_shortname: bevchou
 
 # used this for post_excerpt at index_page
-excerpt_separator: <!--description-->
+excerpt_separator: <!--more-->

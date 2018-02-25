@@ -26,7 +26,7 @@ author:
 ---
 <p><img class="alignnone size-full wp-image-596" src="{{ site.baseurl }}/assets/old-wp-content/working-circuits.gif" alt="" /></p>
 <p>My marquee letter works! Keep reading below.</p>
-<p><!--more--></p>
+<!--more-->
 <p>My Eagle files worked out well and I was able to make sure my circuit had no fly wires. I did originally think that components would be interchangeable when laying out the board for my letter (so all resistors the same &amp; all LEDs the same), but this was not the case. I ended up needing to redo my layout a few times to get the resistors and LEDs in sequential order.</p>
 <p><img class="alignnone wp-image-592" src="{{ site.baseurl }}/assets/old-wp-content/LED-Letter-Board-Schematic-Screenshot.png" alt="" width="596" height="133" /> <img class="alignnone wp-image-593" src="{{ site.baseurl }}/assets/old-wp-content/LED-Letter-Board-Layout-Screenshot.png" alt=""  /></p>
 <p>After spending some time at the Othermill, breaking a bit, and soldering for hours....</p>
