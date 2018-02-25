@@ -1,0 +1,35 @@
+---
+layout: post
+title: Light Level
+date: 2017-09-27 00:44:46.000000000 -04:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- P Comp
+tags:
+- Arduino
+- NYU-ITP
+- P Comp
+- Photoresistor
+meta:
+  _edit_last: '1'
+author:
+   Beverly
+
+
+
+
+---
+<p>This week, I worked on using both digital and analog components with my Arduino. I wanted to use a photoresistor, an analog component, but I first started all with digital inputs to make sure I wired and programmed my Arduino correct. I initially forgot to connect my switch to high voltage, which caused the signal from the button switch to be inconsistent. I fixed the issue after noticing my LED not lighting properly. I made this code:<br />
+<script src="https://gist.github.com/bevchou/d939ab704b61ebc9a6361a665d600af9.js"></script><br />
+And after fixing my button switch circuit, it worked to light up my LED.<br />
+<img class="alignnone wp-image-205" src="{{ site.baseurl }}/assets/led-button.gif" alt="" width="500" height="370" /></p>
+<p>Next, I knew I needed replace the button switch, except I would need to wire it to the analog pins on the Arduino. I wanted more lights to light up based on how much light the photoresistor sensed. If it sensed more light, then more of the LEDs would light up.  Here is what my circuit diagram looks like:<br />
+<img class="alignnone wp-image-206" src="{{ site.baseurl }}/assets/Circuit-Diagram.jpg" alt="" width="499" height="399" /><br />
+And then this is the code I created:<br />
+<script src="https://gist.github.com/bevchou/a943702e687438f56e35e90cb9bc9072.js"></script><br />
+Which then yielded this:<br />
+<img class="alignnone wp-image-208" src="{{ site.baseurl }}/assets/light-level.gif" alt="" width="508" height="463" /></p>

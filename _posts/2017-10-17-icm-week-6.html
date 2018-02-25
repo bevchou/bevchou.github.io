@@ -1,0 +1,40 @@
+---
+layout: post
+title: ICM Week 6
+date: 2017-10-17 04:43:36.000000000 -04:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- ICM
+tags:
+- DOM
+- ICM
+- NYU-ITP
+- p5.js
+meta:
+  _edit_last: '1'
+  _oembed_327ee1eb5ae68e30fef3948d5c98e115: "{{unknown}}"
+  _oembed_7cdb24310f4b12c4a735ea2e24101cb9: "{{unknown}}"
+author:
+   Beverly
+  
+  
+  
+  
+---
+<p>This week I worked with DOM library within p5. I was able to work with ready-made sliders, buttons, and more. Armed with these tools, I made a website where you can view gifs on a sliding scale from cat to dog. A screenshot of the initial page is below. View and interact with the website <a href="http://beverlychou.com/ICM/W6-p5-cat-dog-gif-slider/">here</a>.</p>
+<p><img class="alignnone wp-image-291" src="{{ site.baseurl }}/assets/Screen-Shot-2017-10-17-at-5.29.54-AM.png" alt="" width="469" height="362" /></p>
+<p><!--more--></p>
+<p>My original intent ended up being pretty close to the final result. It could still use some refinement, but I'd say it's close.</p>
+<p><img class="alignnone wp-image-296" src="{{ site.baseurl }}/assets/original-intent.jpg" alt="" width="258" height="225" /></p>
+<p>To start the process, I initially set up this file structure and used the preload() function to get the images in an array.</p>
+<p><img class="alignnone wp-image-293" src="{{ site.baseurl }}/assets/file-structure.png" alt="" width="272" height="364" /><br />
+<script src="https://gist.github.com/bevchou/af5f95d823af4ebe9dc5d9fd93fd48d7.js"></script></p>
+<p>This didn't really allow me to use the images and select DOM elements like I wanted to, so I decided to create an array of the file paths instead.<br />
+<script src="https://gist.github.com/bevchou/06c36ad21a08a88fffc84ee430f2525e.js"></script></p>
+<p>I had an issue displaying the gifs where the "createImg" function in p5 would keep creating new images every time I clicked the GO! button I made. I knew I needed to use the remove() function to get rid of the images. My solution works by deleting any gifs when the button is clicked, and then creating the new image when the button is released. A note - this is not the full code below, just the code that pertains to making the gifs.</p>
+<p><script src="https://gist.github.com/bevchou/5f7e4eaa92518cbe2a80592a7af1e529.js"></script></p>
+<p>Finally, my last struggle was placing all the components in the right spot. I did this mostly through the CSS file and used a lot of the info on positioning from <a href="https://www.w3schools.com/css/css_positioning.asp">this W3 Schools guide</a> and a lot of Googling through stackoverflow.com. In case you were wondering how to position something off-center, I recommend <a href="https://stackoverflow.com/questions/30618150/css-position-absolute-off-center-to-the-left">this solution</a>.</p>

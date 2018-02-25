@@ -1,0 +1,49 @@
+---
+layout: post
+title: ICM Week 5
+date: 2017-10-10 03:18:22.000000000 -04:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- ICM
+tags:
+- ICM
+- NYU-ITP
+- p5.js
+- Yeezy
+meta:
+  _edit_last: '1'
+  _oembed_a43d44793404c471f1e5c79939d670a8: <iframe width="714" height="402" src="https://www.youtube.com/embed/jVhlJNJopOQ?feature=oembed"
+    frameborder="0" allowfullscreen></iframe>
+  _oembed_time_a43d44793404c471f1e5c79939d670a8: '1507619978'
+author:
+   Beverly
+
+
+
+
+---
+<p>This week, I worked on creating a sketch using object oriented code. Since we also learned about arrays, I also wanted to work with that too. My inspiration started when I saw the <a href="https://www.youtube.com/watch?v=jVhlJNJopOQ">SNL Papyrus Skit</a>, which reminded me of every time I've cringed seen Curlz MT used in earnest and also this gem.</p>
+<p><img class="alignnone wp-image-270" src="{{ site.baseurl }}/assets/yeezy-tweet.jpg" alt="" width="311" height="122" /></p>
+<p>As a result, I created functions turn a .txt file of <a href="https://open.spotify.com/track/3nAq2hCr1oWsIU54tS98pL">Waves</a> into various arrays of letters or words, and then a couple functions to play with how they are drawn in p5.js. I wanted to add more ways to alter &amp; move the text, but I didn't really have time. Here it is below and the full code is available <a href="https://alpha.editor.p5js.org/bevchou/sketches/HybKug52W">here</a>.</p>
+<p><iframe style="border: 0;" src="https://beverlychou.com/ICM/W5%20p5%20HW%20Waves/index.html" width="350" height="510"></iframe></p>
+<p><!--more--></p>
+<p>My process mostly consisted of me creating code from one item I wanted in my sketch, and then reworking it into a function that I would then put into a class. For instance, when creating the object for my functions that would turn the incoming .txt file into the arrays I wanted, I started with this.</p>
+<p><script src="https://gist.github.com/bevchou/821c4ab887aef96599810df2f84a9bec.js"></script></p>
+<p>And then I would add a lot of "this." and rename variables to make the code work. There was a lot of trial and error, which I am anticipating will take me less time in the future. Following this, I ended up with the following class/object for making my arrays.</p>
+<p><script src="https://gist.github.com/bevchou/0ff2d7a83ce03a2dba5a3614c14b64b5.js"></script></p>
+<p>From there I was able to play with how I would display the words. I tried a couple of different loop to see how the arrays would print out.</p>
+<p><img class="alignnone " src="{{ site.baseurl }}/assets/text%20to%20words%20array%20going%20down.png" width="300" height="450" />
+</p><p>
+<img class="alignnone " src="{{ site.baseurl }}/assets/download2.png" width="300" height="450" /></p>
+<p>Soon, I wanted to make the text more dynamic by adding functions to animate it. I soon got into this whole mess with dealing with arrays inside arrays and how to manipulate those. I made another class/object to do this. I once again started with something coded for an individual item, like my tilting text.</p>
+<p><img class="alignnone wp-image-276" src="{{ site.baseurl }}/assets/tilt-working.gif" alt="" width="636" height="331" /><br />
+<script src="https://gist.github.com/bevchou/1399c7fc1e14dd0e6c6a7e88069f1f22.js"></script></p>
+<p>And then turned it into a function which is in my class/object.</p>
+<p><script src="https://gist.github.com/bevchou/06568fd1019bdf18ae3fdfec95342124.js"></script></p>
+<p>I was having trouble with somehow ending up with this mess of arrays inside arrays. Or how to call use a function on an object that is already having something done to it. My terminology is not correct, but for instance if I have this in my draw function: stuff.doSomething(arg1, arg2);</p>
+<p>But I wanted to do another thing to it using a function in the same class. Would it look like this: stuff.doAnotherThing(stuff.doSomething(arg1, arg2));</p>
+<p>I'll need to ask about this in class/office hours.</p>

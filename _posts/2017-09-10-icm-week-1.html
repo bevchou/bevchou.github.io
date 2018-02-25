@@ -1,0 +1,35 @@
+---
+layout: post
+title: ICM Week 1
+date: 2017-09-10 22:05:00.000000000 -04:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- ICM
+tags:
+- ICM
+- NYU-ITP
+- p5.js
+meta:
+  _edit_last: '1'
+author: Beverly
+---
+<p><b>Reflecting on Computation</b><br />
+So far, my experience with computation has been focused on using code to analyze data or to optimize a process. This always resulted in the program spitting out some numbers or a matrix, which feels totally different than utilizing code to make something media-based and interactive.</p>
+<p>I am really interested by the work done by <a href="http://hollyherndon.com/">Holly Herndon</a> who uses computation to compose, produce, and make new sounds. I think her latest album <em>Platform</em> is really fascinating in the way digital aspects are integrated to strengthen her ideas about contemporary issues.</p>
+<p>For me, the projects that involve data visualization are the most fascinating. When complicated or large sets of data are presented in a digestible way, it is so delightful to be able to quickly draw conclusions. For instance, I love the <a href="https://www.nytimes.com/interactive/2016/12/28/us/year-in-interactive-graphics.html">interactive New York Times articles</a> since the info and interactions helps to drive the narrative of each article. I think this is really important since by making info more understandable it becomes more transparent and accessible to people. I imagine that I might make projects where I can present information in ways that are attractive and meaningful. Some frustrating problems I think we need to solve are how we might bring clarity on our healthcare systems, show the environmental impacts of our actions, and enrich storytelling through visualization and computation.</p>
+<p><b>Creating a Screen Drawing in p5.js</b><br />
+<img class="alignnone wp-image-51 size-full" src="{{ site.baseurl }}/assets/W1-p5-flower-drawing-final.png" alt="" width="400" height="400" /><br />
+I decided I would make a simple flower drawing. The final drawing is shown above and the code is available <a href="http://alpha.editor.p5js.org/bevchou/sketches/BysNCYg5Z">here</a>. My process looked like this:</p>
+<p><img class="alignnone size-full wp-image-64" src="{{ site.baseurl }}/assets/W1-p5-flower-drawing-process.gif" alt="" width="700" height="312" /></p>
+<p>I started by looking through the p5 library reference to see which shapes I could use. I used ellipses and then the curve functions to make the flower and stem, respectively. I started by adding the basic shapes I would need - the curve, a circle, and ellipses. I had to try different ellipseMode() functions and transformations like the rotate() and angleMode() functions to place the petals in the right spot. I also messed around with the size and placement by changing the inputs to the shape functions. Since the shapes would overlap based on the order the functions were called, I eventually had to move the curve() function before the ellipse() functions so it would be behind the flower.</p>
+<p>I had some questions that arose while making my drawing: How to use p5.js to create repeating shapes and patterns? Was there a way to make the petals by specifying a pattern instead of creating them individually? It was a little tedious to play with the positioning and sizing, but turning on the live update on the p5 web editor helped make things easier.</p>
+<p><b>Quiz Answers</b></p>
+<ul>
+<li><a href="http://alpha.editor.p5js.org/bevchou/sketches/rJNTEg0F-">W1/Q1</a></li>
+<li><a href="http://alpha.editor.p5js.org/bevchou/sketches/H1jSdgCY-">W1/Q2</a></li>
+<li><a href="http://alpha.editor.p5js.org/bevchou/sketches/r1bYFeRYZ">W1/Q3</a></li>
+</ul>

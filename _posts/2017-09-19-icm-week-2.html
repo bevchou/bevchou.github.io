@@ -1,0 +1,51 @@
+---
+layout: post
+title: ICM Week 2
+date: 2017-09-19 05:06:56.000000000 -04:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- ICM
+tags:
+- ICM
+- NYU-ITP
+- p5.js
+meta:
+  _edit_last: '1'
+  _oembed_aed8ed65717390e9cb5bbb47074efd2d: "{{unknown}}"
+  _oembed_b68a284f27dbdcd8283b0746aaa09348: "{{unknown}}"
+  _oembed_e902cfc7d2d3444556184383540d1368: "{{unknown}}"
+author:
+   Beverly
+
+
+
+  
+---
+<p>This week I created a sketch that has all of the following elements:</p>
+<ul>
+<li>One element controlled by the mouse.</li>
+<li>One element that changes over time, independently of the mouse.</li>
+<li>One element that is different every time you run the sketch.</li>
+</ul>
+<p>I decided to make a drawing where you can fly a kite. The full code is available <a href="http://alpha.editor.p5js.org/bevchou/sketches/ByG9hjTqZ">here</a>.</p>
+<p><iframe style="border: 0;" src="https://beverlychou.com/ICM/W2%20p5%20kite%20drawing/index.html" width="600" height="400"></iframe></p>
+<p><!--more--></p>
+<p>I first started by making a rough drawing. I wanted to have moving clouds and a kite controlled by your cursor.</p>
+<p><img class="alignnone wp-image-141" src="{{ site.baseurl }}/assets/kite-sketch-copy.jpg" alt="" width="308" height="193" /></p>
+<p>I started off with the clouds, which I started by creating one and using hard coded numbers.</p>
+<p><img class="alignnone wp-image-143" src="{{ site.baseurl }}/assets/Screen-Shot-2017-09-18-at-5.23.34-PM.png" alt="" width="400" height="284" /><br />
+<script src="https://gist.github.com/bevchou/e2bf675efb7b71781a9e27644129f5cd.js"></script></p>
+<p>And then I thought it was too repetitive to draw the ellipses individually. I also wanted more clouds, and I didn't want to draw each one individually. I decided to use loops to create many clouds and I also used the random() function a few times, which is in the setup() function, to create slightly different cloud shapes when you run the code each time.</p>
+<p><img class="alignnone wp-image-146" src="{{ site.baseurl }}/assets/Screen-Shot-2017-09-18-at-6.13.28-PM.png" alt="" width="400" height="278" /><br />
+<script src="https://gist.github.com/bevchou/2ea8e442a38528cada7af0b22a419872.js"></script></p>
+<p>Next, I needed the clouds to move in the breeze, so I needed to increment the clouds' position along the x-axis. I wanted the clouds to move continuously across the screen, so I needed to reset the clouds' position after it hit a certain point.</p>
+<p><img class="alignnone size-full" src="{{ site.baseurl }}/assets/clouds-successful-drawing.gif" width="500" height="173" /><br />
+<script src="https://gist.github.com/bevchou/c218afc08c38f7a44d5ff166a63014fa.js"></script></p>
+<p>I then added in the kite so that it would follow the cursor.</p>
+<p><img class="alignnone size-full wp-image-152" src="{{ site.baseurl }}/assets/kite-mouse-successful.mov.gif" alt="" width="500" height="174" /></p>
+<p>I cleaned everything up by adding someone who is holding the kite, and also hiding the cursor using the noCursor() function. I wanted to make the drawing more detailed, so I changed the clouds' transparency and made the kite get lighter as it approaches the sun.</p>
+<p>I did have some ideas I wanted to include, like more animated elements, but I was having trouble figuring out how to make something move in more curved pathways. Next time, I definitely want to make a drawings with more interactivity. Hopefully, I can achieve that using some if then statements next week.</p>
