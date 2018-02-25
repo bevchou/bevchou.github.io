@@ -29,6 +29,7 @@ input: GFM
 include:
   - "_pages"
   - "assets"
+  - "about.md"
 exclude:
   - "Gemfile"
   - "Gemfile.lock"
@@ -38,7 +39,7 @@ exclude:
 
 # Third-party services
 # just leave someone empty to disable it
-google_analytics: UA-55123937-1
+# google_analytics:
 disqus_shortname: bevchou
 
 # used this for post_excerpt at index_page

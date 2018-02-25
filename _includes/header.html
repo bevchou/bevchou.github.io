@@ -26,10 +26,6 @@
           <li><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a></li>
             <li><a href="https://www.instagram.com/{{ site.ig_username }}">Instagram</a></li>
           <hr>
-          {% for category in site.categories %}
-            <li><a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category|first}}</a></li>
-          {% endfor %}
-          <hr>
           <!-- <li><a href="{{ "/about" | prepend: site.baseurl }}">About</a></li> -->
           <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li>
         </ul>
