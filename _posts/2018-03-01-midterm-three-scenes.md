@@ -39,7 +39,7 @@ In the last scene, there's something jarring about being in natural spaces (thro
 
 <!--more-->
 
-In my research, I did find a few pieces that I thought were really great portraying Midwestern spaces. [This VR/360 video experience of a family farm in Iowa ](https://www.desmoinesregister.com/story/money/agriculture/2014/09/17/harvest-of-change-virtual-farm-virtual-reality/15785377/) is a journalism project, which seems to be a way to give a voice to modern family farmers. I actually watched the movie [Colombus](https://en.wikipedia.org/wiki/Columbus_(2017_film) after making this, but the way it portrays places/spaces in Indiana is really beautiful. It's like the place is integral to the characters' narratives playing out.
+In my research, I did find a few pieces that I thought were really great portraying Midwestern spaces. [This VR/360 video experience of a family farm in Iowa ](https://www.desmoinesregister.com/story/money/agriculture/2014/09/17/harvest-of-change-virtual-farm-virtual-reality/15785377/) is a journalism project, which seems to be a way to give a voice to modern family farmers. I actually watched the movie [Colombus](https://en.wikipedia.org/wiki/Columbus_(2017_film)) after making this, but the way it portrays places/spaces in Indiana is really beautiful. It's like the place is integral to the characters' narratives playing out.
 
 Finally, here are some of the important resources I used while pulling things together:
 * [Free3D.com - great for finding models when the Unity Asset Store doesn't have what you want!](https://free3d.com)
