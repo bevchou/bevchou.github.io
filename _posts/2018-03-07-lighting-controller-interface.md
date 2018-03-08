@@ -40,7 +40,7 @@ Here's a video of me testing the switches and printing out their states for the 
 
 <p><div class="responsive-container"><iframe src="https://player.vimeo.com/video/259033674" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
 
-With the switches figured out, I needed to get the WiFi connection and DMX protocol working on the MKR1000. I based my code on Tom's sACN example and then added my code for my interface with my "Serial.print()" commands with  "myController.setChannel(dmxChannel, value)". I also needed to add "myController.sendPacket(receiverAddress)" when I was ready to send my data to ITP's network. See the code below. I removed the IP address & wifi credentials from the code (;
+With the switches figured out, I needed to get the WiFi connection and DMX protocol working on the MKR1000. I based my code on Tom's sACN example and then added my code for my interface, replacing any "Serial.print()" commands with  "myController.setChannel(dmxChannel, value)". I also needed to add "myController.sendPacket(receiverAddress)" when I was ready to send my data to ITP's network. See the code below. I removed the IP address & wifi credentials from the code (;
 
 <script src="https://gist.github.com/bevchou/8e2dd1a589825868548c8c4bf2340d85.js"></script>
 
