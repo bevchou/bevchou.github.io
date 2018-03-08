@@ -22,8 +22,7 @@ author:
 
 
 ---
-<p><div class="responsive-container"><iframe src="https://player.vimeo.com/video/257323881" width="640" height="410" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</video></div></p>
+<p><div class="responsive-container"><iframe src="https://player.vimeo.com/video/257323881" width="640" height="410" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
 <p>For my TTS interaction, I have made a Node.js project that will give a user the weather when prompted. Read more below about it.</p>
 <p><!--more--></p>
 <p>I originally wanted to find an API that would be able to take images, and output a description of the image. I thought that it would be something practical for visually impaired people, however I do know that similar things (like reverse image search and accessibility apps) already exist. I just wonder how it would work the constraints given to us for this assignment. I attempted to do something with the knn image classification in deeplearn.js, but I wasn't able to find enough documentation to figure it out.</p>
