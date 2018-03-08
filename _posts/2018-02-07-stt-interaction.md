@@ -8,7 +8,7 @@ published: true
 password: ''
 status: publish
 categories:
-- Expressive Voice Interfaces
+- Voice Interfaces
 tags:
 - Flickr API
 - p5
