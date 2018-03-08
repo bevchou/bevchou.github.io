@@ -23,19 +23,19 @@ author:
 
 Here's a full video of me navigating the VR spaces that I created. I continued to add to the space I made from the previous "Recreating a Space" project. There aren't that many VR experiences (or popular media in general) that capture experiences of Midwestern life so I wanted to portray spaces that are reminiscent of places in my home state of Michigan.
 
-![lake scene](../assets/tpos/scene-1.jpg)
+![lake scene]({{ site.baseurl }}/assets/tpos/scene-1.jpg)
 
 I wasn't intending on creating a narrative with this piece, but I intentionally built them to be a part of the same world. In making sense of the scene sequencing, I had the spaces meld into each other with the user seeming to transition through the trees and then into the corn field.
 
-![road scene](../assets/tpos/scene-2.jpg)
+![road scene]({{ site.baseurl }}/assets/tpos/scene-2.jpg)
 
 There's also an element of timing where the scenes go from night to dark, suggesting that you're spending a certain amount of time in each place.
 
-![corn field 1](../assets/tpos/scene-3a.jpg)
+![corn field 1]({{ site.baseurl }}/assets/tpos/scene-3a.jpg)
 
 In the last scene, there's something jarring about being in natural spaces (through the unnatural portal of virtual reality) and then being pulled back to present through the iPhone ringtone. It's little bit of the the reality within a reality, but mostly I was interested in how something can be familiar and unfamiliar at the same time.
 
-![corn field 2](../assets/tpos/scene-3b.jpg)
+![corn field 2]({{ site.baseurl }}/assets/tpos/scene-3b.jpg)
 
 <!--more-->
 

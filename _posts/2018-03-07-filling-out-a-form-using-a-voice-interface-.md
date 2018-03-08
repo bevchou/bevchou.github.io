@@ -21,7 +21,7 @@ author:
 
 For my voice interface, I decided to go for a more functional route. Sometimes it is time consuming or feels cumbersome to fill out forms by typing or writing by hand, so I wanted to make an experience where a user can fill out a form quickly by speaking the answers. There's a demo video above and the full dialog flow is below.
 
-![dialog flow](../assets/voice-interf/Midterm-Dialog-Flow.png)
+![dialog flow]({{ site.baseurl }}/assets/voice-interf/Midterm-Dialog-Flow.png)
 
 <!--more-->
 
