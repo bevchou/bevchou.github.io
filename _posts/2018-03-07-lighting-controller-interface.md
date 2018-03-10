@@ -30,9 +30,14 @@ Here's a video of this working in the ITP lounge.
 
 To execute this concept, I needed to figure how to put the reed switches into a grid that would feel like the user's movement corresponds to the lights. I tested out {{ site.baseurl }}e spacing of the reed switches by feel, and where they would activate when under a piece of mat board. They have an oval shape area where they activate, so I tried to make a grid like this.
 
+
+![reed sensor panel]({{ site.baseurl }}/assets/tangible-interaction/lightcontrol-reed-sensor-panels.jpg)
+
+The switches are fragile since they're made of glass, so I hot glued them on the underside of mat board to keep them from bending while I soldered and organized the wires.
+
 ![wiring underneath]({{ site.baseurl }}/assets/tangible-interaction/lightcontrol-underside.jpg)
 
-The switches are fragile since they're made of glass, so I hot glued them on the underside of mat board to keep them from bending while I soldered and organized the wires. I also added a piece of mat board spaced off of the switches to protect them and provide a smooth surface.
+I also added a piece of mat board spaced off of the switches to protect them and provide a smooth surface.
 
 ![wiring inside]({{ site.baseurl }}/assets/tangible-interaction/lightcontrol-inside-wiring.jpg)
 
