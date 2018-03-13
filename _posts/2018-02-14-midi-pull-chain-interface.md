@@ -26,14 +26,19 @@ author:
 
 
 ---
-<p>For the MIDI interface, Anthony and I worked together to make a MIDI pull chain interface that is combined with some effects controls. We were both excited to use pull chains &amp; here is the pull chain part. Essentially, you can build chords by turn notes on and off with the pull chain switches. The notes will sustain until you turn them off &amp; you can tell if they are on/off when the corresponding LEDs are on/off.</p>
 
-<p><div class="responsive-container"><iframe src="https://player.vimeo.com/video/257324319" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+<div class="responsive-container"><iframe src="https://player.vimeo.com/video/259807241" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+
+<p>For the MIDI interface, Anthony and I worked together to make a MIDI pull chain interface that is combined with effects controls. We were both excited to use pull chains! Essentially, you can build chords by turn notes on and off with the pull chain switches. The notes will sustain until you turn them off &amp; you can tell if they are on/off when the corresponding LEDs are on/off.</p>
 
 <p><img src="{{ site.baseurl }}/assets/old-wp-content/Photo-Feb-13-11-59-58-PM.jpg" alt=""  /></p>
-<p>and then here is what the effects controls look like. We have a sliding switch with springs back to the center. We also have a drum pad with a piezo sensor under a piece of silicone. The slider is programmed to a do a pitch bend and then the drum pad can be used to change velocity.</p>
+
+We also made interfaces to control different effects. We have a sliding switch with springs back to the center that does pitch bending. The drum pad that has a piezo sensor under a piece of silicone changes note velocity.
+
 <p><img src="{{ site.baseurl }}/assets/old-wp-content/Photo-Feb-14-1-42-22-AM.jpg" alt=""  /></p>
+
 <p><!--more--></p>
+
 <p>To get all these components working together we had the MIDI-to-USB box hooked up to two Arduino circuits. Yes, we are sending MIDI protocol to one play instrument using two Arduinos! Then we hooked up the USB to GarageBand on a computer to play some sounds.</p>
 <p><img src="{{ site.baseurl }}/assets/old-wp-content/Photo-Feb-13-7-25-42-PM.jpg" alt=""  /></p>
 <p>Here is the code for the pull chain part:</p>
@@ -43,4 +48,5 @@ author:
 <p>The build concept was not that complicated, but the wiring was a bit messy.</p>
 <p><img  src="{{ site.baseurl }}/assets/old-wp-content/Photo-Feb-13-3-34-07-PM.jpg" alt=""  /></p>
 <p><img  src="{{ site.baseurl }}/assets/old-wp-content/Photo-Feb-13-11-59-50-PM-1.jpg" alt=""  /></p>
-<p>&nbsp;</p>
+
+<p><div class="responsive-container"><iframe src="https://player.vimeo.com/video/257324319" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
