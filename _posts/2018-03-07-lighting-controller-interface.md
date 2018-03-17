@@ -22,13 +22,21 @@ For my lighting controller, I wanted to create an interface where someone would 
 
 I wanted to give more control than on/off, so I added the ability to change the brightness of all the lights that were on with a potentiometer. There is an LED to visually indicate the brightness in case there are no game pieces on the controller. I also included a toggle switch that will turn all the lights on/off at once.
 
-<!--more-->
-
 Here's a video of this working in the ITP lounge.
 
-<p><div class="responsive-container"><iframe src="https://player.vimeo.com/video/259034258" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+<div class="responsive-container"><iframe src="https://player.vimeo.com/video/259034258" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
-To execute this concept, I needed to figure how to put the reed switches into a grid that would feel like the user's movement corresponds to the lights. I tested out {{ site.baseurl }}e spacing of the reed switches by feel, and where they would activate when under a piece of mat board. They have an oval shape area where they activate, so I tried to make a grid like this.
+<!--more-->
+
+I initially played around with the idea of controlling color or using RFID instead of magnets. I was also thinking about how many sensors I would need to create a grid gave the user enough control.
+
+![sketch 1]({{ site.baseurl }}/assets/tangible-interaction/lightcontrol-sketch1.jpg)
+
+After deciding to stick to the 3 X 2 grid to match the lights in the ITP lounge and settling on my concept of controlling light brightness, I came up with ideas on how to mount the fragile reed switches in my enclosure.
+
+![sketch 3]({{ site.baseurl }}/assets/tangible-interaction/lightcontrol-sketch3.jpg)
+
+To execute this concept, I needed to figure how to put the reed switches into a grid that would feel like the user's movement corresponds to the lights. I tested out the spacing of the reed switches by feel, and where they would activate when under a piece of mat board. They have an oval shape area where they activate, so I tried to make a grid like this.
 
 
 ![reed sensor panel]({{ site.baseurl }}/assets/tangible-interaction/lightcontrol-reed-sensor-panels.jpg)
