@@ -22,11 +22,12 @@ For my lighting controller, I wanted to create an interface where someone would 
 
 I wanted to give more control than on/off, so I added the ability to change the brightness of all the lights that were on with a potentiometer. There is an LED to visually indicate the brightness in case there are no game pieces on the controller. I also included a toggle switch that will turn all the lights on/off at once.
 
+<!--more-->
+
+
 Here's a video of this working in the ITP lounge.
 
 <div class="responsive-container"><iframe src="https://player.vimeo.com/video/259034258" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-
-<!--more-->
 
 I initially played around with the idea of controlling color or using RFID instead of magnets. I was also thinking about how many sensors I would need to create a grid gave the user enough control.
 
