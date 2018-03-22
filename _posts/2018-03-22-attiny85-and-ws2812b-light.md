@@ -18,7 +18,7 @@ author: Beverly
 
 ![completed circuit working](../assets/homemadehardware/midterm-working-image.jpg)
 
-I made a light that reacted to the external environment. I decided to use a photo-resistor and a temperature sensor to affect the color and brightness of the lights. I was inspired by Magritte's painting "The Banquet" that I saw in Chicago last week.
+I made a light that reacted to the external environment. I decided to use a photo-resistor and a temperature sensor to determine the color and brightness of the lights. I was inspired by Magritte's painting "The Banquet" that I saw in Chicago last week.
 
 I added some mounting points to mount material that will diffuse the light. There's also a larger hole so this light can hang on a wall. I haven't made the enclosure yet, but I'll update the post when I do. I'm waiting for the snow storm to stop before I try to go to Canal Plastics... Keep reading for exciting gifs, troubleshooting, Eagle screenshots, and more!
 
