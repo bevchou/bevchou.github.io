@@ -38,15 +38,19 @@ I made my board using the methods we talked about in class. Using the "polygon" 
 
 One of the biggest frustrations I had with this project was dealing with Bantam Tools' software for the Othermill. There were two main issues I ran into.
 
-1.  It doesn't recognize lines drawing using "circle" in Eagle on the dimension layer. It won't cut them. This one had an easy workaround. Use "arc" instead of "circle" in Eagle.
+1.  It doesn't recognize lines drawn using "circle" in Eagle on the dimension layer. It won't cut them. This one had an easy workaround. Use "arc" instead of "circle" in Eagle.
 
-2. It adds or doesn't show traces I've made in Eagle. I'm not sure what the pattern is with this error, but it is NOT COOL. It's totally fine here in Eagle.![AtTiny85 close up in Eagle board](../assets/homemadehardware/midterm-attiny-eagle-closeup.png) And after importing it in Bantam Tools and making sure I'm using all the right bits, it's like huh???? ![AtTiny85 close up in Eagle board](../assets/homemadehardware/midterm-attiny-bantam-closeup.png) Well, I didn't figure out a great solution, so I ended up scraping away the excess copper between those two data pins with an Xacto knife.
+2. It adds or doesn't show traces I've made in Eagle. I'm not sure what the pattern is with this error, but it is NOT COOL. It's totally fine here in Eagle.
+![AtTiny85 close up in Eagle board](../assets/homemadehardware/midterm-attiny-eagle-closeup.png)
+Then after importing it in Bantam Tools and making sure I'm using all the right bits, it's like huh????
+![AtTiny85 close up in Eagle board](../assets/homemadehardware/midterm-attiny-bantam-closeup.png)
+Well, I didn't figure out a great solution, so I ended up scraping away the excess copper between those two data pins with an Xacto knife.
 
 Anyways, the circuit came out as expected on the Othermill.
 
 ![circuit board without components](../assets/homemadehardware/midterm-board-no-components.jpg)
 
-I had a combination of surface mount and through-hole components. I did the SMD parts first, adding solder paste by hand and the using the pick-and-place. Ten, I used the heat gun for the reflow. Finally, I soldered the through-hole parts.
+I had a combination of surface mount and through-hole components. I did the SMD parts first, adding solder paste by hand and the using the pick-and-place. Then, I used the heat gun for the reflow. Finally, I soldered the through-hole parts.
 
 ![circuit board with components](../assets/homemadehardware/midterm-board-w-components.jpg)
 
