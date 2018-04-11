@@ -41,7 +41,7 @@ function newCat(url) {
 ```
 From there it was a simple matter of determining which images I wanted to display. I tried to match the width/height ratio, width in pixels, and height in pixels to the images I used for the cats.
 
-Here's the CSS I used on the cat images. The units 'vh' and 'vw' are units that are relative to the viewport. I had them both at 100 to fill the entire window. The object fit was used to make sure that the images maintained their original ratios, making sure the images didn't get scaled weirdly.
+Here's the CSS I used on the cat images. The units 'vh' and 'vw' are units that are relative to the viewport. I had them both at 100 to fill the entire window. The object fit was used to make sure that the images maintained their original ratios, making sure the images didn't scale weirdly.
 
 ```
 #cat {

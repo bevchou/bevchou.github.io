@@ -20,7 +20,7 @@ author:
 
 ![website working gif](../assets/homemadehardware/final-working-website.gif)
 
-For my final project, I am planning on making a small grid of LEDs that can be controlled by users from a website that is accessible from anywhere. Users will not be able to see the LED grid unless they are physically present, but they can still make changes. Hopefully, people will collectively create images or simply play around. This is kind of like a small physical version of [Reddit Place](https://en.wikipedia.org/wiki/Place_(Reddit)). My current code allows you to choose more colors for the LEDs, but my demo shown in the gif only has red and blue! Keep reading for my process.
+For my final project, I am planning on making a small grid of LEDs that can be controlled by users from a website that is accessible from anywhere. Users will not be able to see the LED grid unless they are physically present, but they can still make changes. Hopefully, people will collectively create images or simply play around. This is kind of like a small physical version of [Reddit Place](https://en.wikipedia.org/wiki/Place_(Reddit)). My current code allows you to choose more colors for the LEDs, but the demo shown in the gif only has red and blue. Keep reading for my process.
 
 <!--more-->
 
@@ -28,7 +28,7 @@ For my final project, I am planning on making a small grid of LEDs that can be c
 
 ![feather huzzah circuit prototype](../assets/homemadehardware/final-feather-huzzah-prototype.jpg)
 
-Starting out, I knew that I needed a microcontroller that could connect to wifi and have one digital pin for me to control an array of neopixels. The ESP8266 is capable of this, so I decided to start with a Feather Huzzah board to first get my code working.
+Starting out, I knew that I needed a microcontroller that could connect to wifi and have one digital pin for me to control an array of neopixels. The ESP8266 is capable of this, so I decided to start with a Feather Huzzah board to get my code working.
 
 A lot of my code is based on [this example](https://github.com/tttapa/ESP8266/tree/master/Examples/14.%20WebSocket/A-WebSocket_LED_control) from an ESP8266 guide. The main things I changed were the website that interfaces with the ESP8266 and the data protocol to send info from the browser (client) to the ESP8266 (server). I also added code to control the LEDs using the [Neopixel library](https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-use).
 
@@ -69,7 +69,7 @@ Before you upload your code, you need to set the ESP8266 to bootload mode. Here'
 3. Let go of reset button.
 4. Let go of GPIO-0 button.
 
-Now I am able to upload code through the Arduino IDE! You need to do the button pressing thing each time before you upload code. Unless you do OTA uploads (; The next steps will be to convert my breadboard to an Eagle design and then fabricate!
+Now I am able to upload code through the Arduino IDE! You need to do the button pressing thing each time before you upload code. And now I can do OTA uploads after uploading my code (; The next steps will be to convert my breadboard to an Eagle design and then fabricate!
 
 ### Helpful Resources That I Used
 
