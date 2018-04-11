@@ -20,7 +20,7 @@ author:
 
 ![website working gif](../assets/homemadehardware/final-working-website.gif)
 
-For my final project, I am planning on making a small grid of LEDs that can be controlled by users that can be controlled from a website from anywhere. Users will not be able to see the LED grid themselves unless they are physically able to see it, but are able to make changes. Hopefully, people will collectively create images or simply play around. This is kind of like a physical version of [Reddit Place](https://en.wikipedia.org/wiki/Place_(Reddit)). Keep reading for my process.
+For my final project, I am planning on making a small grid of LEDs that can be controlled by users from a website that is accessible from anywhere. Users will not be able to see the LED grid unless they are physically present, but they can still make changes. Hopefully, people will collectively create images or simply play around. This is kind of like a small physical version of [Reddit Place](https://en.wikipedia.org/wiki/Place_(Reddit)). My current code allows you to choose more colors for the LEDs, but my demo shown in the gif only has red and blue! Keep reading for my process.
 
 <!--more-->
 
