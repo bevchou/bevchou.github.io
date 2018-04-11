@@ -17,7 +17,7 @@ author:
 ---
 <div class="responsive-container"><iframe src="https://player.vimeo.com/video/264161984" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
-There is a rule of physics that says cats are able to take the shape of any container. I'm proving that it's true, even in the browser. [SEE FOR YOURSELF HERE!!](http://itp.beverlychou.com/hacking-the-browser/w2-responsive-site/) Keep reading to see how I did it.
+There is a rule of physics that says cats are able to take the shape of any container. I'm proving that it's true, even in the browser. [CLICK HERE TO SEE FOR YOURSELF!!](http://itp.beverlychou.com/hacking-the-browser/w2-responsive-site/) Keep reading to see how I did it.
 
 <!--more-->
 
