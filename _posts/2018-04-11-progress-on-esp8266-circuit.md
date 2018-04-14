@@ -16,9 +16,9 @@ author:
    Beverly
 ---
 
-![prototype breadboard](../assets/homemadehardware/final-full-breadboard-prototype.jpg)
+![prototype breadboard]({{ site.baseurl }}/assets/homemadehardware/final-full-breadboard-prototype.jpg)
 
-![website working gif](../assets/homemadehardware/final-working-website.gif)
+![website working gif]({{ site.baseurl }}/assets/homemadehardware/final-working-website.gif)
 
 For my final project, I am planning on making a small grid of LEDs that can be controlled by users from a website that is accessible from anywhere. Users will not be able to see the LED grid unless they are physically present, but they can still make changes. Hopefully, people will collectively create images or simply play around. This is kind of like a small physical version of [Reddit Place](https://en.wikipedia.org/wiki/Place_(Reddit)). My current code allows you to choose more colors for the LEDs, but the demo shown in the gif only has red and blue. Keep reading for my process.
 
@@ -26,7 +26,7 @@ For my final project, I am planning on making a small grid of LEDs that can be c
 
 ### Part 1: Prototype with Feather Huzzah (Mostly Coding)
 
-![feather huzzah circuit prototype](../assets/homemadehardware/final-feather-huzzah-prototype.jpg)
+![feather huzzah circuit prototype]({{ site.baseurl }}/assets/homemadehardware/final-feather-huzzah-prototype.jpg)
 
 Starting out, I knew that I needed a microcontroller that could connect to wifi and have one digital pin for me to control an array of neopixels. The ESP8266 is capable of this, so I decided to start with a Feather Huzzah board to get my code working.
 
@@ -42,19 +42,19 @@ On the server side, I am basically reversing what I did to convert the string ba
 
 ### Part 2: Breadboard Prototype (Circuit Design/Uploading the Code)
 
-![prototype breadboard drawing from notebook](../assets/homemadehardware/final-circuit-diagram.jpg)
+![prototype breadboard drawing from notebook]({{ site.baseurl }}/assets/homemadehardware/final-circuit-diagram.jpg)
 
 I based my breadboard off of Adafruit's [ESP8266 Breakout](https://www.adafruit.com/product/2471) Eagle schematic. I wanted to upload code directly, so I am using an [FTDI Friend](https://www.adafruit.com/product/284) to convert USB to serial. We have the FTDI Friends in the ITP shop, so I didn't need to buy anything extra.
 
-![FTDI Friend](../assets/homemadehardware/final-FTDI-friend.jpg)
+![FTDI Friend]({{ site.baseurl }}/assets/homemadehardware/final-FTDI-friend.jpg)
 
 I set the Vcc to 3.3V by cutting the 5V jumper on the back and soldering the 3.3V pads on the back of the FTDI Friend. This is because the ESP8266's max. voltage is 3.6V!!! I originally had a LD33V regulator in my breadboard circuit, but it was dropping the voltage too low for the ESP8266 to upload code for some reason. I know I will need to have a 3V regulator on my final circuit, so I'll have to look for the right one.
 
-![image of the back of my FTDI Friend](../assets/homemadehardware/final-back-of-FTDI-Friend.jpg)
+![image of the back of my FTDI Friend]({{ site.baseurl }}/assets/homemadehardware/final-back-of-FTDI-Friend.jpg)
 
 Also, fun fact - TXD on your board goes to RXD on the FTDI cable. RXD on your board goes to TXD on the FTDI cable. That clearly makes sense, but at 2AM I did not do that.
 
-![picture of the whole breadboard circuit from another angle just for fun](../assets/homemadehardware/final-closeup-breadboard.jpg)
+![picture of the whole breadboard circuit from another angle just for fun]({{ site.baseurl }}/assets/homemadehardware/final-closeup-breadboard.jpg)
 
 Cool! One more thing - find the file called programmers.txt in the Arduino IDE files. Mine was located at the following folder: "/Library/Arduino15/packages/esp8266/hardware/esp8266/2.4.1/". And add the following code to the end of the file.
 
@@ -62,7 +62,7 @@ Cool! One more thing - find the file called programmers.txt in the Arduino IDE f
 
 Before you upload your code, you need to set the ESP8266 to bootload mode. Here's what you do:
 
-![bootload mode gif](../assets/homemadehardware/bootload-mode-button-press.gif)
+![bootload mode gif]({{ site.baseurl }}/assets/homemadehardware/bootload-mode-button-press.gif)
 
 1. Hold the GPIO-0 button. Your LED will light up.
 2. While holding the GPIO-0 button, press the reset button.
