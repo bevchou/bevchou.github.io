@@ -19,11 +19,9 @@ author:
 
 The process of taking my breadboard circuit to SMB part circuit was such a struggle omg. Here is the board I ended up with, which looks really nice, but unfortunately does not work. Code appears to upload through the Arduino IDE, but there is some issue with the board stuck in a reset loop.
 
-Even though my circuit doesn't work, the code does work!!! It works 100% on my breadboard circuit and the Feather Huzzah. Here are some screenshots of the website that my circuit was supposed to be serving. I was able to control a whole strip of neopixels during my testing. 
+Even though my circuit doesn't work, the code does work!!! It works 100% on my breadboard circuit and the Feather Huzzah. Here a screenshot of the main website that my circuit was supposed to be serving. I was able to control a whole strip of neopixels during my testing.
 
 ![picture of final site]({{ site.baseurl }}/assets/homemadehardware/final-website-drop-down.png)
-
-![picture of final site more info]({{ site.baseurl }}/assets/homemadehardware/final-website-info.png)
 
 Keep reading to see the process of building my circuit.
 
