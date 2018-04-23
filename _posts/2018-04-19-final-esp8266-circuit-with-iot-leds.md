@@ -51,7 +51,7 @@ In an attempt to save my project and try one last time, I made a new design with
 
 ![picture of new eagle schematic]({{ site.baseurl }}/assets/homemadehardware/final-second-schematic.png)
 
-Honestly, I have no idea why the copper pads for my components show up only sometimes in Bantam. It takes a bunch of fiddling around to get Bantam to match what I designed in Eagle. I really dislike Bantam's software and I think if I'm going to acid etch my circuits in the future. But after a bunch of nonsense, I got it to final cut the way I wanted it to.
+Honestly, I have no idea why the copper pads for my components show up only sometimes in Bantam. It takes a bunch of fiddling around to get Bantam to match what I designed in Eagle. I really dislike Bantam's software and I think I'm going to acid etch my circuits in the future. But after a bunch of nonsense, I got it to cut the way I wanted it to~.
 
 ![picture of new eagle board design]({{ site.baseurl }}/assets/homemadehardware/final-eagle-second-board.png)
 
