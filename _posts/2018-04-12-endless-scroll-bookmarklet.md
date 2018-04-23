@@ -22,23 +22,19 @@ I'm pretty sure at some point we've all had the following thought - "Wow, if onl
 
 This was a simple little bookmarklet. I used the setInterval function to call a function that increases the padding in set intervals. It
 
-```
+{% highlight ruby %}
 //this will run the callback function every t milliseconds
 interval = setInterval(callbackToIncrementPadding, t);
-```
+{% endhighlight %}
+
+
+
+And then inside my callback, I call a function that actually send that info to the browser.
 
 {% highlight ruby %}
 function setSize() {
   document.body.style.paddingTop = sizeTxt;
 }
 {% endhighlight %}
-
-And then inside my callback, I call a function that actually send that info to the browser.
-
-```
-function setSize() {
-  document.body.style.paddingTop = sizeTxt;
-}
-```
 
 Finally, I used the [Bookmarkleter](http://chriszarate.github.io/bookmarkleter/) to convert my javascript into a bookmarklet.

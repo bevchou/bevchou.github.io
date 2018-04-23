@@ -22,7 +22,8 @@ There is a rule of physics that says cats are able to take the shape of any cont
 <!--more-->
 
 I created a website that responds whenever someone resizes the window. To do this, I used the resize function in Jquery.
-```
+
+{% highlight ruby %}
 $(window).resize(function() {
   //remove intro images - that was the gif and the text
   $('#start').remove();
@@ -38,12 +39,13 @@ $(window).resize(function() {
 function newCat(url) {
   $('#cat').attr('src', url);
 }
-```
+{% endhighlight %}
+
 From there it was a simple matter of determining which images I wanted to display. I tried to match the width/height ratio, width in pixels, and height in pixels to the images I used for the cats.
 
 Here's the CSS I used on the cat images. The units 'vh' and 'vw' are units that are relative to the viewport. I had them both at 100 to fill the entire window. The object fit was used to make sure that the images maintained their original ratios, making sure the images didn't scale weirdly.
 
-```
+{% highlight ruby %}
 #cat {
   position: fixed;
   top: 0;
@@ -52,4 +54,4 @@ Here's the CSS I used on the cat images. The units 'vh' and 'vw' are units that 
   height: 100vh;
   width: 100vw;
 }
-```
+{% endhighlight %}
