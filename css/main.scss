@@ -6,7 +6,8 @@
 
 
 // Our variables
-$base-font-family:  Helvetica, "Helvetica Neue", Arial, sans-serif;
+$base-font-family: 'Roboto', sans-serif;
+// $base-font-family:  Helvetica, "Helvetica Neue", Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -48,15 +49,15 @@ $on-laptop:        780px;
 
 .dont-break-out {
 
-  /* Careful, this breaks the word wherever it is without a hyphen */
-  overflow-wrap: break-word;
-  word-wrap: break-word;
+  /* change this change work breaks */
+  overflow-wrap: normal;
+  word-wrap: normal;
 
-  /* Adds a hyphen where the word breaks */
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
+  /* Adds a hyphen where the word breaks if you are allowing work-break */
+  -webkit-hyphens: manual !important;
+  -ms-hyphens: manual !important;
+  -moz-hyphens: manual !important;
+  hyphens: manual !important;
 
 }
 
