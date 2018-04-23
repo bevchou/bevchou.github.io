@@ -32,7 +32,7 @@ $(window).resize(function() {
   if (windowRatio >= 2) {
     newCat(WIDECAT.jpg);
   }
-  //and then more if/then statements to select images
+  //and then more if-then statements to select images
 }
 
 //function to change the cat image
