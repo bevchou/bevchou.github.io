@@ -27,6 +27,12 @@ This was a simple little bookmarklet. I used the setInterval function to call a 
 interval = setInterval(callbackToIncrementPadding, t);
 ```
 
+{% highlight ruby %}
+function setSize() {
+  document.body.style.paddingTop = sizeTxt;
+}
+{% endhighlight %}
+
 And then inside my callback, I call a function that actually send that info to the browser.
 
 ```
