@@ -95,7 +95,7 @@ _8 min:_ Final thoughts to wrap up, thanks, and ask students to fill out a feedb
 
 **If There's Extra Time**
 
-_8 min:_ If there's still extra time, I will give a short presentation to explain the basic concepts around mechanical advantage and a simple 2 gear mechanism. I will provide a few examples to solidify these ideas.
+_8 min:_ If there's extra time, give a short presentation to explain the basic concepts around mechanical advantage and a simple 2 gear mechanism. Provide a few examples to solidify these ideas.
 
 ## Feedback from Students
 
