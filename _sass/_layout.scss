@@ -219,12 +219,22 @@ p.readmore {
 }
 
 .article-content a {
-  border-bottom:1px dotted red;
+  color:#dd5942;
   text-decoration:none;
 }
 .article-content a:hover {
-  color:red;
-  border-bottom:1px dotted red;
+  color:#dd5942;
+  border-bottom:1px solid #dd5942;
+}
+
+.post_excerpt a {
+  color:#dd5942;
+  text-decoration:none;
+}
+
+.post_excerpt a:hover {
+  color:#dd5942;
+  border-bottom:1px solid #dd5942;
 }
 
 .article-footer {
