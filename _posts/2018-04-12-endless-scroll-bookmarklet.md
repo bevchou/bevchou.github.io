@@ -22,7 +22,7 @@ I'm pretty sure at some point we've all had the following thought - "Wow, if onl
 
 This was a simple little bookmarklet. I used the setInterval function to call a function that increases the padding in set intervals. It
 
-{% highlight ruby %}
+{% highlight javascript %}
 //this will run the callback function every t milliseconds
 interval = setInterval(callbackToIncrementPadding, t);
 {% endhighlight %}
@@ -31,7 +31,7 @@ interval = setInterval(callbackToIncrementPadding, t);
 
 And then inside my callback, I call a function that actually send that info to the browser.
 
-{% highlight ruby %}
+{% highlight javascript %}
 function setSize() {
   document.body.style.paddingTop = sizeTxt;
 }
