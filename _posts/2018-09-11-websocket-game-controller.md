@@ -45,7 +45,7 @@ I had my breadboard set up like this. At one point, I spent an hour figuring out
 
 With the power/ground issue solved, everything was working well.
 
-<div class="responsive-container"><iframe src="https://player.vimeo.com/video/289219307" width="640" height="1138" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<p><div class="responsive-container"><iframe src="https://player.vimeo.com/video/289219307" width="640" height="1138" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
 
 Finally, I moved things inside my enclosure. You can see the discarded first attempts in the background.
 
@@ -53,7 +53,7 @@ Finally, I moved things inside my enclosure. You can see the discarded first att
 
 Here's the finished controller!
 
-![sketch 1]({{ site.baseurl }}/assets/und-networks/websocket-controller-final.jpg.jpg)
+![sketch 1]({{ site.baseurl }}/assets/und-networks/websocket-controller-final.jpg)
 
 ## Connecting to the Wifi Network
 
