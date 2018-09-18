@@ -25,7 +25,7 @@ I used the Feather Huzzah ESP8266 board to create my game controller. Here is an
 4. Rotary encoder dials on the top and side let the user scroll their paddle up/down and left/right.
 5. When you're done playing the game, you can hit the button again to disconnect from the server and the LED will turn off.
 
-Read more for a more detailed breakdown of the code.
+Read more for a more detailed breakdown of the build & code.
 
 <!--more-->
 
