@@ -12,6 +12,8 @@ author:
    Beverly
 ---
 
+![gif of several users sending messages and changing the background color](url)
+
 ![screenshot 1]({{ site.baseurl }}/assets/live-web/live-web-color-chat-screenshot1.png)
 
 I wanted to make a simple chat where users can change the color of the chat box by entering in hex colors. I think colors can convey a lot of emotion and it's an interesting way to communicate without words. I wanted to find a nicer way to have users select their color, but for now it's tailored around the ease of working with CSS. For now, I have some error messages that show up when you don't enter your color in the correct hexidecimal format.
