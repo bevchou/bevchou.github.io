@@ -39,4 +39,4 @@ Energetic currency doesn't seem to be a officially defined term, so I'm very cur
 - [The Gypsy’s Tricks for Spiritual Cleansing and Protection: Energetic Investments](https://shaheenmiroinsights.com/the-gypsys-tricks-for-spiritual-cleansing-and-protection-energetic-investments/)
 - [Finding Inner Peace](https://energeticsynthesis.com/index.php/finding-inner-peace)
 - [Take Charge of Your Internal Currency with Martine Negro](https://radiopublic.com/spiritual-entrepreneur-WxDzl3/ep/s1!71824)
--[Karma: Law of Re-Embodiment by Yang-Un Moon](https://books.google.com/books?id=F5Q_BAAAQBAJ&pg=PA35&lpg=PA35&dq=%22energetic+currency%22&source=bl&ots=Bd1mPJ-_rj&sig=rw-rv1fvvCYmRF6LEGl8S4JXdH0&hl=en&sa=X&ved=2ahUKEwiK4-uEzsrdAhWoUt8KHefnAWY4FBDoATAAegQICRAB#v=onepage&q=%22energetic%20currency%22&f=false)
+- [Karma: Law of Re-Embodiment by Yang-Un Moon](https://books.google.com/books?id=F5Q_BAAAQBAJ&pg=PA35&lpg=PA35&dq=%22energetic+currency%22&source=bl&ots=Bd1mPJ-_rj&sig=rw-rv1fvvCYmRF6LEGl8S4JXdH0&hl=en&sa=X&ved=2ahUKEwiK4-uEzsrdAhWoUt8KHefnAWY4FBDoATAAegQICRAB#v=onepage&q=%22energetic%20currency%22&f=false)
