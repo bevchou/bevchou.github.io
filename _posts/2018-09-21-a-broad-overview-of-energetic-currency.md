@@ -29,7 +29,7 @@ Energetic currency doesn't seem to be a officially defined term, so I'm very cur
 ### Biology / Ecology
 - [Is the Planet Full? Ch 8: The Metabolism of a Human-Dominated Planet - Ian Goldin](https://books.google.com/books?id=q1PwAwAAQBAJ&pg=PT136&lpg=PT136&dq=%22energetic+currency%22&source=bl&ots=5Y1Mv9VZYR&sig=M2KnRTzK1iWyr0vXH1JijOyPdTo&hl=en&sa=X&ved=2ahUKEwiK4-uEzsrdAhWoUt8KHefnAWY4FBDoATADegQIBhAB#v=onepage&q=%22energetic%20currency%22&f=false)
 - [Carbon Budgets](http://biology.kenyon.edu/courses/biol229/CarbonBudget1.pdf)
--[ATP is the energetic currency of the cell](https://books.google.com/books?id=AtsqDQAAQBAJ&pg=PA57&dq=%22energetic+currency%22&hl=en&sa=X&ved=0ahUKEwiYrJXVzMrdAhUphuAKHRr8BswQ6AEIMzAC#v=onepage&q=%22energetic%20currency%22&f=false)
+- [ATP is the energetic currency of the cell](https://books.google.com/books?id=AtsqDQAAQBAJ&pg=PA57&dq=%22energetic+currency%22&hl=en&sa=X&ved=0ahUKEwiYrJXVzMrdAhUphuAKHRr8BswQ6AEIMzAC#v=onepage&q=%22energetic%20currency%22&f=false)
 - [Colony Energy Requirements Affect the Foraging Currency of Bumble  - Ralph V. Cartar and Lawrence M. Dill](https://www.jstor.org/stable/4600492)
 - [Energetic and Time Costs of Foraging in Harvester Ants, Pogonomyrmex occidentalis - Jennifer H. Fewell](https://www.jstor.org/stable/4600169)
 
