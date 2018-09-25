@@ -14,15 +14,19 @@ author:
 ---
 
 
-![color map](/assets/temp-exp/systems-map-colors.jpg)
+![color map]({{ site.baseurl }}/assets/temp-exp/systems-map-colors.jpg)
 
 For my energy field guide, the topic "energetic currency" has chosen me. To get things going, I took a broad look at what energetic currency means in several different contexts. Energetic currency seems to fit into the overarching topics of ecology, biology, money, spirituality, self, and social/human relationships. I think each of these contexts could contain many systems within themselves because this topic is so amorphous and conceptual.
 
 In the map above, I have the most broad topics in the darkest color and then lighting as the branch away from main topics. There's a lot of interconnectedness in the connections between energy flows happening within nature, between humans, and then finally between humans + nature.
 
-Energetic currency doesn't seem to be a officially defined term, so I'm very curious about where the research rabbit hole will lead. I'm a little concerned about finding a reliable source for the more New Age-y spiritual energy information, but maybe that's just part of the research. Below is the original paper of my map.
+Energetic currency doesn't seem to be a officially defined term, so I'm very curious about where the research rabbit hole will lead. I'm a little concerned about finding a reliable source for the more New Age-y spiritual energy information, but maybe that's just part of the research.
 
-![plain map](/assets/temp-exp/systems-map-original.jpg)
+<!--more-->
+
+Below is the original paper of my map.
+
+![plain map]({{ site.baseurl }}/assets/temp-exp/systems-map-original.jpg)
 
 ## Interesting Sources of Info
 

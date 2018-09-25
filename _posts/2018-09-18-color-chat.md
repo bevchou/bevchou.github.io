@@ -12,9 +12,9 @@ author:
    Beverly
 ---
 
-!! Post still in progress !! 
+!! Post still in progress !!
 
-![gif of several users sending messages and changing the background color](url)
+<!-- ![gif of several users sending messages and changing the background color](url) -->
 
 ![screenshot 1]({{ site.baseurl }}/assets/live-web/live-web-color-chat-screenshot1.png)
 
