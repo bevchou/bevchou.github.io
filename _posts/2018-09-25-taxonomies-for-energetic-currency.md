@@ -21,7 +21,7 @@ One version of a taxonomy for energetic currency is to look at how energetic cur
 
 I am super interested in how quickly (9 minutes!!!) they are able to convey information in this format. It's almost a video field guide to the universe. My first try to create a taxonomy is more focused on the scientific process of energy flowing in natural systems. This follows the onion analogy.
 
-![](/assets/temp-exp/taxonomy-version-1.jpg)
+![]({{ site.baseurl }}/assets/temp-exp/taxonomy-version-1.jpg)
 
 - ATP & photosynthesis in plant cells
 - Metabolism of an individual animal consuming plant energy (humans? cows? ???)
