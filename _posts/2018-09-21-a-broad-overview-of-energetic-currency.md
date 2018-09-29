@@ -22,8 +22,6 @@ In the map above, I have the most broad topics in the darkest color and then lig
 
 Energetic currency doesn't seem to be a officially defined term, so I'm very curious about where the research rabbit hole will lead. I'm a little concerned about finding a reliable source for the more New Age-y spiritual energy information, but maybe that's just part of the research.
 
-<!--more-->
-
 Below is the original paper of my map.
 
 ![plain map]({{ site.baseurl }}/assets/temp-exp/systems-map-original.jpg)
