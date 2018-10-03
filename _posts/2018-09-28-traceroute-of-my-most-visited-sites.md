@@ -16,6 +16,8 @@ I started investivating by looking at what sites I visit most often. If you use 
 
 I'm interested in how location affects the traceroute, so I'm also going to compare Google in the US (google.com) and Google in Taiwan (google.com.tw). I also looked at my personal site (beverlychou.com), which is hosted through DreamHost, and my blog (itp.beverlychou.com), which is hosted through GitHub Pages. I think they'll go through different paths. The domain is from Namecheap, which points to DreamHost. From there the subdomain for my ITP blog points to GitHub pages. I collected data at three locations - ITP, my home, and a coffee shop with public wifi.
 
+<!--more-->
+
 ## Google.com vs Google.com.tw
 
 ![google]({{ site.baseurl }}/assets/und-networks/traceroute-google.jpg)
