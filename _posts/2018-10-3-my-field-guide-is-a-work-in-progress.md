@@ -33,17 +33,17 @@ I was able to settle on a taxonomy, which ended up being:
 
 It's visualized in my map/table of contents.
 
-![map in field guide]({{ site.baseurl }}/assets/field-guide-draft-map.jpg)
+![map in field guide]({{ site.baseurl }}/assets/temp-exp/field-guide-draft-map.jpg)
 
 I did decide to stick with having a hole in the book. I think it goes along with the notion of a field guide being used as in info overlay out in the world as well as letting the reader exchange some energetic currency outside the book.
 
 The voice of the book is meant to be friendly and at the same level as the user. I think part of good energy is balance, so I didn't want to have an overly authoritative or aggressive voice.
 
-![karma pages]({{ site.baseurl }}/assets/field-guide-draft-karma-page.jpg)
+![karma pages]({{ site.baseurl }}/assets/temp-exp/field-guide-draft-karma-page.jpg)
 
 The illustration and visual design are also kind of a gentle children's book style - partially because this is within my ability to draw and so it has a warmer vibe. Energetic currency is about exchange with other living things, so I didn't want it to look overly digital.
 
-![unfinished sections]({{ site.baseurl }}/assets/field-guide-draft-draft-karma-page-2.jpg)
+![unfinished sections]({{ site.baseurl }}/assets/temp-exp/field-guide-draft-draft-karma-page-2.jpg)
 
 Critique was helpful. I think it wasn't as easy to critique since it wasn't 100% done, but got some good reference to check out:
 
