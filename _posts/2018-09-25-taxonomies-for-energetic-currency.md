@@ -90,6 +90,17 @@ Your field guide is intended to nudge/change/affect a participant in some way (e
 What is the primary system you are focused on?
 What systems does each entry touch upon? Should you consider economics, lifestyle, sociocultural differences, etc? -->
 
+<!--
+- people
+  - yourself
+  - other people
+- places
+  - urban spaces
+  - natural spaces
+- animals
+  - domestic
+  - wild -->
+
 
 ## More Interesting Sources of Info
 

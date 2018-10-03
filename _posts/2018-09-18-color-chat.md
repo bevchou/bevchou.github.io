@@ -11,9 +11,7 @@ meta:
 author:
    Beverly
 ---
-{{ site.baseurl }}
-
-![gif of several users sending messages and changing the background color](/assets/live-web/color-chat-example-video.gif)
+![gif of several users sending messages and changing the background color]({{ site.baseurl }}/assets/live-web/color-chat-example-video.gif)
 
 I wanted to make a simple chat where users can change the color of the chat box by entering in hex colors. I think colors can convey a lot of emotion and it's an interesting way to communicate without words. I wanted to find a nicer way to have users select their color, but for now it's tailored around the ease of working with CSS.
 
@@ -21,7 +19,7 @@ I wanted to make a simple chat where users can change the color of the chat box 
 
 I have some error messages that show up when you don't enter your color in the correct hexidecimal format.
 
-![](/assets/live-web/color-chat-error-message.png)
+![]({{ site.baseurl }}/assets/live-web/color-chat-error-message.png)
 
 ~~I'm not sure how to make my server run forever - it seems to close whenever I log out of my digital ocean droplet.~~
 
@@ -94,7 +92,7 @@ var sendmessage = function(message) {
 };
 {% endhighlight %}
 
-In order for the client to receive colors from other users, I needed to parse the user and color data into an array. From there, I can split the array into variables and use javascript to add the message to the chat body and update the website's styling. 
+In order for the client to receive colors from other users, I needed to parse the user and color data into an array. From there, I can split the array into variables and use javascript to add the message to the chat body and update the website's styling.
 
 {% highlight javascript %}
 //IN THE CLIENT SIDE CODE - SKETCH.JS
