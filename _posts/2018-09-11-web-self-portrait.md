@@ -36,3 +36,23 @@ function setVidTime(wordNum) {
   setTimeout(function(){ video.pause(); }, 1450);
 }
 ```
+
+Read more for my experience using Nextdoor.
+
+<!--more-->
+
+![nextdoor mainpage]({{ site.baseurl }}/assets/live-web/nextdoor-mainpage.png)
+
+For my synchronous site, I tried using Nextdoor. It is essentially a hyperlocal Facebook where people mostly post about cats. I signed up using a code I got in the mail on a physical postcard. I'm assuming this is how they knew my location and connected me into the right community of people. It's interesting in that the location of your home and your real name are used. I blurred out the names/locations in my images because of this.
+
+It feels like a glorified neighborhood cork board you would find in a coffee shop. The posts aren't terribly exciting, but it's good if you need to sell/buy something, find a lost pet, get some local suggestions, be alerted of petty crime, and talk to some people in your neighborhood. It is a great place to post about cats!!! People post about good cats.
+
+![good cats]({{ site.baseurl }}/assets/live-web/nextdoor-cat1.png)
+
+People also post about bad cats.
+
+![bad cats]({{ site.baseurl }}/assets/live-web/nextdoor-cat2.png)
+
+Overall, I like that there is a genuinely helpful vibe and I don't see anyone abusing the site. I think that might be due to the fact that there is no anonymity. I hope the site isn't using the info for anything creepy though.
+
+ I do find it a weird that instead of meeting your neighbors in person, someone thought we needed this online interaction. In some ways, this site is actually useful, but honestly, I think social anxiety only heightens when we rely on online socialization like this. I mean I'm guilty of it too sometimes, but for me I'm not trying to live in weird hyperconnected isolation. I have a lot of thoughts on that, but I'll save it for another time.
