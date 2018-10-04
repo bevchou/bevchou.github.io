@@ -15,9 +15,13 @@ author:
 
 ![marco reading the field guide]({{ site.baseurl }}/assets/temp-exp/field-guide-draft-marco.jpg)
 
-My field guide is still a work in-progress. It's still missing a couple entries and a lot of illustrations, but I was able to get in a second draft version for critique this past Tuesday.
+My field guide is still a work in-progress. It's still missing a couple entries and a lot of illustrations, but I was able to get in a second draft version for critique this past Tuesday. Here is my first draft next to my second draft.
 
-![back of the draft field guide]({{ site.baseurl }}/assets/temp-exp/temp-exp-this-is-a-wip.jpg)
+<!-- ![back of the draft field guide]({{ site.baseurl }}/assets/temp-exp/temp-exp-this-is-a-wip.jpg) -->
+
+
+
+![covers]({{ site.baseurl }}/assets/temp-exp/field-guide-draft-covers.jpg)
 
 I was able to settle on a taxonomy, which ended up being:
 
