@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My "Perfect" Soft Sensor
+title: My "Beautiful" Soft Sensor
 date: 2018-10-8
 type: post
 categories:
