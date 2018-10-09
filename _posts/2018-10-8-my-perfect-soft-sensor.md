@@ -20,7 +20,7 @@ My sensor is a series of pressure sensors in a row that is designed to be able t
 
 I need to work on adding features to sense different patterns in the code. Hopefully this fulfills the "beautiful" criteria. I think it looks okay, but it's more general purpose at this stage.
 
-<!-- more -->
+<!--more-->
 
 ### Process
 

@@ -22,6 +22,8 @@ This past weekend (Sept 29-30), I was in the Soft Sensors class w/ Kate Hartman.
 
 The first thing we did was make a simple soft circuit that had a battery, conductive thread, and an LED. This was pretty straightforward and making the connections to the terminals on the battery and LED were easier than I thought it would be.
 
+<!--more-->
+
 ## Testing Resistive Materials
 
 Next, we tested the different properties of different resistive materials using a multimeter and reading in values from an Arduino.
@@ -36,7 +38,7 @@ One of the things Alan and I noticed was how variable the values were. Especiall
 
 We weren't able to precisely replicate the same movement every time. I think when it comes to soft sensors with these materials, a lot of adjustments need to be made in code. Also, as we found in class between different teams, so that meant the size of the material must be causing variations too.
 
-## Arduino Material Testing
+### Arduino Material Testing
 
 ![material test results]({{ site.baseurl }}/assets/soft-sensing/material-test-with-arduino.jpg)
 
