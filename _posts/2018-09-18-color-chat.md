@@ -113,3 +113,5 @@ socket.on('colorMessage', function(data) {
   document.getElementById('chatBody').innerHTML += message;
 });
 {% endhighlight %}
+
+All the code is available [here](https://github.com/bevchou/live-web/tree/master/2018_9_17_NodeJsColorChat).
