@@ -12,7 +12,7 @@ meta:
 author:
    Beverly
 ---
-<!-- {{ site.baseurl }} -->
+
 ![gif of several users drawing]({{ site.baseurl }}/assets/live-web/draw-together-demo.gif)
 
 Ivy and I made a simple drawing application where users can draw together using different colors when they go to the same site. We used socket.io to send the mouse position from all the users and the draw the image on everyone's screen.
@@ -51,6 +51,7 @@ socket.on('mouse', function(data) {
 And then when the clients receive the mouse data, we use it to draw the image onto the p5 canvas.
 
 {% highlight javascript %}
+//IN THE SKETCH.JS FILE
 socket.on('mouse', function(data) {
   noStroke();
   fill(dotColor);
