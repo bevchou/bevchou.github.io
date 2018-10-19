@@ -141,3 +141,7 @@ socket.on('webcamImg', function(dataURL) {
 ![bye]({{ site.baseurl }}/assets/live-web/video-chat-bye.jpg)
 
 Thanks for reading! All the code is available [here](https://github.com/bevchou/live-web/tree/master/2018_10_9_VideoChat).
+
+### Side Notes
+
+This doesn't work on Safari on my iPhone. I think [this](https://stackoverflow.com/questions/21189958/javascript-onloadedmetadata-event-not-firing-on-ios-devices) is the issue. Essentially, "onloadedmetadata" won't fire because mobile Safari won't load any part of a video without an interaction from the user. 
