@@ -5,6 +5,9 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+# syntax highlighting
+# https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers
+
 # Site settings
 title: Beverly Chou @ ITP
 email: bevchou@nyu.edu

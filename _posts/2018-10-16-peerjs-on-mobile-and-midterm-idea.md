@@ -18,7 +18,7 @@ My idea for my Live Web midterm is to make a site that collects video clips or i
 
 I think that it's not possible to store videos, so for now I'm going to focus on having users capture images. I wanted to have it be possible for people to capture photos from their smartphones so that it wouldn't necessarily be a selection of selfies, although that would be fine.
 
-Some examples of websites that used 24 hours of media are Pharrell's Happy music video. Basically, the song played on loop for 24 hours (annoying, I know) while a 24 hour long video of dancers at various times/places ran.
+Some examples of websites that used 24 hours of media are Pharrell's Happy music video. Basically, the song played on loop (annoying, I know) while a 24-hour-long video of dancers at various times/places ran.
 
 ![]({{ site.baseurl }}/assets/live-web/24-hour-happy-pharrell.jpg)
 
