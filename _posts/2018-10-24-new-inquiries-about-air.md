@@ -36,14 +36,12 @@ I also talked to my friend Kan who I went to engineering school with. He went on
 
 I keep track of most of my references in Dropbox paper, which will live [here](https://paper.dropbox.com/doc/Temporary-Expert-Air-Rights--AQCQ0~7cKlcFRkNkM_fI~7hMAQ-V92gKWsRnnXzjgpMZnb89).
 
-So far, I've done some light research around how air rights affects architecture
+So far, I've done some light research around how air rights affects architecture. Here are some of the links I found interesting.
 
 - [Selling the Sky: “Air Rights” Take Strange Bites Out of Big Apple Architecture
 ](https://99percentinvisible.org/article/selling-sky-air-rights-take-strange-bites-big-apple-architecture/)
 - [From Heaven to Hell: Exploring the Odd Vertical Limits of Land Ownership
 ](https://99percentinvisible.org/article/heaven-hell-exploring-odd-vertical-limits-land-ownership/)
-
-
 
 
 
