@@ -50,7 +50,7 @@ There are a couple of behaviors that I noticed while using the Google Home Mini.
 | 12-15 | Ask Google Home to stop music. Allow for ambient sound and talking. No direct interaction. |
 | 15-17 | Ask Google Home a couple really specific questions about the animal behaviors of tiger salamanders. |
 | 17-20 | Ask Google to play music again. |
-
+<br>
 
 And here is a beautifully formatted Excel plot of the data captured over time by protocol.
 
@@ -62,7 +62,7 @@ Here are some added notes to make it more clear what was happening in real life 
 
 ### TCP Communication with my Laptop
 
-When I was initially looking at the packet stream, I was really confused that my laptop and the Google Home were sending SO MANY packets to each other. I thought that they Google Home would be communicating with a Google IP address.
+When I was initially looking at the packet stream, I was really confused that my laptop and the Google Home were sending SO MANY packets to each other. I thought that the Google Home would be communicating with a Google IP address.
 
 Essentially, for the entire time that Chrome was open on my laptop, my laptop would send two successive TCP packets and receive a TCP packet from the Google Home over and over again. Here is how the pattern of the TCP packets (and the included flags) went:
 
@@ -72,9 +72,9 @@ Essentially, for the entire time that Chrome was open on my laptop, my laptop wo
 
 This pattern went on in an endless cycle until I closed Chrome. We've seen the acknowledgement (ACK) flag before since it is an important part of TCP, but the push (PSH) flag was new. Essentially, the PSH flag tells the sender that the TCP data should be sent right away and it tells the receiving host to immediately push the data to the application. Without the PSH flag, the packet may sit in a buffer and cause a delay.
 
-The first packet is simply an acknowledgement that my laptop got the previous packet that was send from the Google Home. It didn't have any payload attached. The second and third ones have payloads. I tried to see what data was being transmitted, but looking at the payloads didn't really tell me anything. My guess is that the packets are encrypted and broken into pieces. Wireshark indicates "TCP segment of a reassembled PDU" on many of the packets.
+The first packet is simply an acknowledgement that my laptop got the previous packet that was sent from the Google Home. It didn't have any payload attached. The second and third ones have payloads. I tried to see what data was being transmitted, but looking at the payloads didn't really tell me anything. My guess is that the packets are encrypted and broken into pieces. Wireshark indicates "TCP segment of a reassembled PDU" on many of the packets.
 
-Once, I closed Chrome the TCP packets stopped. My laptop send Google Home a TCP packet with a "FIN" flag to indicate it was the last packet it would send. There's some errors about duplicate acknowledgement and out-of-order packets. But then my laptop sends a "RST" flag to reset the connection. From there the TCP packets end.
+Once, I closed Chrome the TCP packets stopped. My laptop sent Google Home a TCP packet with a "FIN" flag to indicate it was the last packet it would send. There's some errors about duplicate acknowledgement and out-of-order packets. Then my laptop sent a "RST" flag to reset the connection. From there the TCP packets end.
 
 Anyways, I'm not 100% sure what was being sent but based on the behavior it seems like Google is sending realtime data between Google Home and Chrome (when it's available). Is the microphone on the Google Home listening? Maybe it's waiting for us to [play content from Chrome to Google Home](https://support.google.com/googlehome/answer/7194413?hl=en)? Maybe Chrome is sending data to predict what I'll ask Google Home? Is it doing a software update? Who knows. They seem pretty vague about it, but rest assured they're making their services "better" - whatever that means.
 
@@ -86,13 +86,13 @@ As a paranoid person, I'd guess Google is collecting data on us. Even in the tim
 
 DNS is domain name system, which converts a computer's host name to an IP address that identifies it on the Internet. mDNS is multicast-DNS, which works similarly on a smaller network (like the network in my apartment) instead of the entire Internet. mDNS and DNS are in the application layer, and both use UDP.
 
-mDNS works by broadcasting a query to all the hosts on the local network. Then the ones with hostnames that match the query will respond to one that send the query. mDNS is assumed to be used in a trusted network and the packets are not secure. To avoid flooding the network with traffic, it uses a lot of caching.
+mDNS works by broadcasting a query to all the hosts on the local network. Then the ones with hostnames that match the query will respond to one that sent the query. mDNS is assumed to be used in a trusted network and the packets are not secure. To avoid flooding the network with traffic, it uses a lot of caching.
 
-In terms of the Google Home, it send a series of 2-3 mDNS packets approximately every 1.7 minutes (compare that with ~40 TCP packets per minute sent between my laptop and the Google Home when Chrome was open). This is probably because it is caching data. There are some packets which indicate a cache purge. The Google Home always is sending a packet to the IP address 255.0.0.251, but never receives any mDNS packets. Packets show that it is still querying and getting responses though.
+In terms of the Google Home, it sent a series of 2-3 mDNS packets approximately every 1.7 minutes (compare that with ~40 TCP packets per minute sent between my laptop and the Google Home when Chrome was open). This is probably because it was caching data. There are some packets which indicate a cache purge. The Google Home always sent a packet to the IP address 255.0.0.251, but never received any mDNS packets. Packets show that it is still querying and getting responses though.
 
 ![]({{ site.baseurl }}/assets/und-networks/packetsniff-mDNS-only.png)
 
-The Google Home was able to answer all my really specific questions about tiger salamanders (15-17 minutes on the chart) without sending queries at the exact moment I asked the question. I think it might be continuously listening (and caching) and then continuously bringing back results. And then if I senses the hot word (because it's always listening) it can tell me the relevant answer it has cached away. I'm not quite sure, but it's sort of weird that it isn't sending or receiving packets at the moment I ask questions.
+The Google Home was able to answer all my really specific questions about tiger salamanders (15-17 minutes on the chart) without sending queries at the exact moment I asked the question. I think it might be continuously listening (and caching) and then continuously bringing back results. And then if it senses the hot word (because it's always listening) it can tell me the relevant answer it has cached away. I'm not quite sure, but it's sort of weird that it isn't sending or receiving packets at the moment I ask questions.
 
 So who is 224.0.0.251???? It's a [multicasting IP](https://www.iana.org/assignments/multicast-addresses/multicast-addresses.xhtml). According to Wikipedia, "IP multicast is a technique for one-to-many and many-to-many real-time communication over an IP infrastructure in a network." The packets show the Google Home is talking to services called "\_googlecast.\_tcp.local" and "\_googlezone.\_tcp.local" that are also sending info to 224.0.0.251. There is info in the query response packets that include my Google Home's unique id, and I think that is how it identifies the relevant data to grab.
 
@@ -100,11 +100,11 @@ These packets aren't encrypted. I can see some of the metadata under "additional
 
 ![]({{ site.baseurl }}/assets/und-networks/packetsniff-a-response-mdns-packet.png)
 
-Anyways, it seems like Google other streaming products like Chromecast also use mDNS in the same way, and probably several other smart devices function this way.
+Anyways, it seems like Google other streaming products like Chromecast also use mDNS in the same way, and probably several other smart or networked devices function this way.
 
 ### Conclusions
 
-Besides the packet sniffing, I'm not a fan of it as a product. The voice interface wasn't a smooth experience and I didn't find it helpful. It didn't introduce enough convenience in my life and the sound quality (as a speaker) is pretty bad. And besides all those things, I'm still convinced it's constantly listening to me and saving my data even if I can't prove what's in the TCP packets. And we shouldn't forget that they can change the software unbeknownst to all of us at any point in time. I'm not sure if it's really that big of a step to avoid using Google's smart home devices because they probably know enough about me from my usage of all their products. In any case, I feel better with the Google Home unplugged.
+Besides the packet sniffing, I'm not a fan of it as a product. The voice interface wasn't a smooth experience and I didn't find it helpful. It didn't introduce enough convenience in my life and the sound quality (as a speaker) is pretty bad. And besides all those things, I'm still convinced it's constantly listening and saving my data even if I can't prove what's in the TCP packets. And we shouldn't forget that they can change the software unbeknownst to all of us at any point in time. I'm not sure if it's really that big of a step to avoid using Google's smart home devices because they probably know enough about me from my usage of all their products. In any case, I feel better with the Google Home unplugged.
 
 ### Links for Reference
 
