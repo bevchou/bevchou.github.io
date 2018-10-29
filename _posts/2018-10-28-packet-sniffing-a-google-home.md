@@ -51,6 +51,7 @@ There are a couple of behaviors that I noticed while using the Google Home Mini.
 | 15-17 | Ask Google Home a couple really specific questions about the animal behaviors of tiger salamanders. |
 | 17-20 | Ask Google to play music again. |
 
+
 And here is a beautifully formatted Excel plot of the data captured over time by protocol.
 
 ![plot of packets capture over 20 minutes by protocol]({{ site.baseurl }}/assets/und-networks/packetsniff-plain-time-plot.png)
