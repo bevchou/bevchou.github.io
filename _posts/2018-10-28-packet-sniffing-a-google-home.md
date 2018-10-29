@@ -18,6 +18,8 @@ author:
 
 I decided to packet sniff a Google Home Mini that my sister gave me last year for Christmas. When I told her I didn't want to use it because Google was probably collecting all our data, she was pretty upset that I didn't appreciate her gift. I briefly used it out of guilt, but eventually it creeped me out too much so I quietly stopped using it (sorry, Ann). Now using Wireshark, I hope to report that my concerns are completely valid.
 
+<!--more-->
+
 ### Setting Up Wireshark
 
 <!-- {{ site.baseurl }} -->
