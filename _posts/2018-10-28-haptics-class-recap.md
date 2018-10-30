@@ -14,11 +14,13 @@ author:
    Beverly
 ---
 
+![gif of haptic motor]({{ site.baseurl }}/assets/haptics/haptic-motor.gif)
+
 This weekend (Oct 27-38), I was in the one-credit Haptics class w/ Kate Hartman. Overall, it was fun to learn about the vibration motors and play with different applications.
 
-### Experiment 1: Vibration Motors
+<!--more-->
 
-![gif of haptic motor]({{ site.baseurl }}/assets/haptics/haptic-motor.gif)
+### Experiment 1: Vibration Motors
 
 Dongphil and I started by setting up the motor simply with the blink sketch. We played with changing the delay between when the motor was activated (set to HIGH voltage) and when it was off (set to LOW voltage). We had the following observations:
 
