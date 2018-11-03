@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Final Haptics Project: Petting A Cat
+title: Final Haptics Project - Petting A Cat
 date: 2018-11-3
 type: post
 categories:
