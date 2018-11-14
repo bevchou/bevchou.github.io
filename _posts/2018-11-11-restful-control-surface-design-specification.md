@@ -39,13 +39,9 @@ We want the clients to communicate according to this system diagram. We are plan
 
 ~~Either a physical or digital interface will work for the controller (:~~
 
-Update: Alden and I will be designing the control interface for the VJ visuals. Ellen and Ridwan will be designing the output visuals. Documentation on our RESTful API is available here now.
+Update: Alden and I will be designing the control interface for the VJ visuals. Ellen and Ridwan will be designing the output visuals. The documentation for our RESTful API is available below. Here are the GET or POST requests that can be made by the clients.
 
-## The RESTful API
-
-We've determined the REST API and the specific GET or POST requests that will be made by the clients.
-
-### POST Requests
+## POST Requests
 
 **Visualization Mode**
 
@@ -86,7 +82,7 @@ POST /shapes?triangle={bool}&circle={bool}&square={bool}&squiggle={bool}&arc={bo
 bool: 0 to turn off or 1 to turn on shape visibility. Bool values for each shape are independent of each other.
 
 
-### GET Requests
+## GET Requests
 
 **Current State**
 
