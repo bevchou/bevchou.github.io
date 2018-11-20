@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Closer to Something
-date: 2018-11-5
+date: 2018-11-19
 type: post
 categories:
 - Temporary Expert
