@@ -25,5 +25,5 @@ Here are some references for other designers playing with interactive type.
 
 - [ALLES NEU / Schultz Schultz  - experimental interactions to manipulate typographic forms](http://www.schultzschultz.com/abcdefghijklmnopqrstuvwxyz/) or [also this link](http://schultzschultz.com/free-works.html)
 - [Dia Studio - not necessarily interactive, but their motion graphic work is amazing](http://dia.tv/)
-- [Four Letter Word  / Purin Phanichphant Brian Singer & Chloe Bensahel - Saw this at SF Design Week. Thought it was okay, but people were sooooo entralled by this](http://purin.co/Four-Letter-Word)
+- [Four Letter Word  / Purin Phanichphant Brian Singer & Chloe Bensahel - Saw this at SF Design Week. Thought it was okay, but people were sooooo enthralled by this](http://purin.co/Four-Letter-Word)
 - [Text Rain / Camille Utterback - an ITP classic](http://camilleutterback.com/projects/text-rain/)
