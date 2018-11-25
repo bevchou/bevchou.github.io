@@ -81,6 +81,7 @@ It's interesting how air rights is shaping the development of -->
 
 ![I could be a good boyfriend](/assets/temp-exp/trevor-yeung-encyc.jpg)
 [I could be a good boyfriend, Trevor Yeung (2013)](http://trevoryeung.net/index.php?/past/trevor-yeungs-encyclopedia/)
+
 ![White ](/assets/temp-exp/Trevor-Yeung-White-Acanthus-Installation-shot-2017-Porcelain-stoneware-cotton-rattan-Dimensions-variable-Courtesy-of-the-Artist-and-Blindspot-Gallery-9999x700.jpg)
 [White Acanthus, Trevor Yeung (2017)](http://trevoryeung.net/index.php?/little-plant/acanthus/)
 
@@ -90,25 +91,25 @@ It's interesting how air rights is shaping the development of -->
 ## References I'm Looking At
 
 - Real Estate Legal
-  - Contemporary Real Estate Law by C. Kerry Fields and Kevin C. Fields, page 24: https://books.google.com/books?id=KvdJDwAAQBAJ&lpg=PA25&dq=%22air%20rights%22%20law&pg=PA26#v=onepage&q=%22air%20rights%22%20law&f=false
-  - Real Estate Law by Marianne Jennings, page 42: https://books.google.com/books?id=GTKpQz95KM8C&lpg=PA43&dq=%22air%20rights%22&pg=PA42#v=onepage&q=%22air%20rights%22&f=false
-  - Unlocking the Right to Build: Designing a More Flexible System for Transferring Development Rights: http://furmancenter.org/research/publication/unlocking-the-right-to-build-designing-a-more-flexible-system-for-transferr
+  - [Contemporary Real Estate Law by C. Kerry Fields and Kevin C. Fields, page 24]( https://books.google.com/books?id=KvdJDwAAQBAJ&lpg=PA25&dq=%22air%20rights%22%20law&pg=PA26#v=onepage&q=%22air%20rights%22%20law&f=false)
+  - [Real Estate Law by Marianne Jennings, page 42]( https://books.google.com/books?id=GTKpQz95KM8C&lpg=PA43&dq=%22air%20rights%22&pg=PA42#v=onepage&q=%22air%20rights%22&f=false)
+  - [Unlocking the Right to Build: Designing a More Flexible System for Transferring Development Rights] (http://furmancenter.org/research/publication/unlocking-the-right-to-build-designing-a-more-flexible-system-for-transferr)
 - Architecture
-  - Selling the Sky: “Air Rights” Take Strange Bites Out of Big Apple Architecturehttps://99percentinvisible.org/article/selling-sky-air-rights-take-strange-bites-big-apple-architecture/
-  - From Heaven to Hell: Exploring the Odd Vertical Limits of Land Ownership: https://99percentinvisible.org/article/heaven-hell-exploring-odd-vertical-limits-land-ownership/
-  - Higher and Higher: https://99percentinvisible.org/episode/higher-and-higher/
-  - “the Wrong Building, in the Wrong Place, at the Wrong time” Marcel Breuer and the grand central toWer controversy, 1967–1969: https://www.mitpressjournals.org/doi/pdf/10.1162/ARTM_a_00198
+  - [Selling the Sky: “Air Rights” Take Strange Bites Out of Big Apple Architecture](https://99percentinvisible.org/article/selling-sky-air-rights-take-strange-bites-big-apple-architecture/)
+  - [From Heaven to Hell: Exploring the Odd Vertical Limits of Land Ownership](https://99percentinvisible.org/article/heaven-hell-exploring-odd-vertical-limits-land-ownership/)
+  - [Higher and Higher](https://99percentinvisible.org/episode/higher-and-higher/)
+  - [“the Wrong Building, in the Wrong Place, at the Wrong time” Marcel Breuer and the grand central toWer controversy, 1967–1969](https://www.mitpressjournals.org/doi/pdf/10.1162/ARTM_a_00198)
 - Open lots: https://livinglotsnyc.org/
 - Blockchain
-  - Now, blockchain can turn carbon credits into tokens for trading: https://www.computerworld.com/article/3277207/blockchain/now-blockchain-can-turn-carbon-credits-into-tokens-for-trading.html
-  - Now, blockchain can turn carbon credits into tokens for trading: https://www.nytimes.com/2018/01/13/arts/cryptocurrency-art-market.html
-  - When Crypto Meets Conceptual Art, Things Get Weird: https://www.nytimes.com/2018/06/05/arts/design/cryptocurrency-blockchain-art-kevin-abosch.html
-  - R.A.R.E. Art (digital art editions based on blockchain): https://www.rareart.io/
-  - Stellar (blockchain money transactions): https://www.stellar.org
+  - [Now, blockchain can turn carbon credits into tokens for trading](https://www.computerworld.com/article/3277207/blockchain/now-blockchain-can-turn-carbon-credits-into-tokens-for-trading.html)
+  - [Cryptocurrency Art Market](https://www.nytimes.com/2018/01/13/arts/cryptocurrency-art-market.html)
+  - [When Crypto Meets Conceptual Art, Things Get Weird](https://www.nytimes.com/2018/06/05/arts/design/cryptocurrency-blockchain-art-kevin-abosch.html)
+  - [R.A.R.E. Art (digital art editions based on blockchain)](https://www.rareart.io/)
+  - [Stellar (blockchain money transactions)](https://www.stellar.org)
 - Buying/selling carbon credits
-  - If your carbon footprint makes you feel guilty, there’s an easy way out: https://qz.com/974463/buying-carbon-credits-is-the-easiest-way-to-offset-your-carbon-footprint/
-  - How to Sell Carbon Credits: https://bizfluent.com/how-4965822-sell-carbon-credits.html
-  - This “carbon removal marketplace” will make buying offsets easier: https://www.fastcompany.com/40571935/this-carbon-removal-marketplace-will-make-buying-offsets-easier
+  - [If your carbon footprint makes you feel guilty, there’s an easy way out](https://qz.com/974463/buying-carbon-credits-is-the-easiest-way-to-offset-your-carbon-footprint/)
+  - [How to Sell Carbon Credits](https://bizfluent.com/how-4965822-sell-carbon-credits.html)
+  - [This “carbon removal marketplace” will make buying offsets easier](https://www.fastcompany.com/40571935/this-carbon-removal-marketplace-will-make-buying-offsets-easier)
 
 
 
@@ -117,6 +118,5 @@ It's interesting how air rights is shaping the development of -->
 How to use preservation as a
 vitrine -->
 
-<!--more-->
 
  <!-- ![ideas]({{ site.baseurl }}/assets/temp-exp/air-systems-brainstorm.jpg) -->
