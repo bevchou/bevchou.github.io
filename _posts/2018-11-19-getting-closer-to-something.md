@@ -15,13 +15,13 @@ author:
 
 I was having a difficult time narrowing how I want my project to exist and I've kind of been going a lot of random divergent pathways trying to understand air rights. I have to admit I'm sort of going in circles, but these are the circles that I'm thinking in now.
 
-![circlesssss ugh](/assets/temp-exp/air-systems-connections.jpg)
+![circlesssss ugh]({{ site.baseurl }}/assets/temp-exp/air-systems-connections.jpg)
 
 I was able to talk with Margaret the librarian, and she was able to point me to some really good resources. From what I gather, the term *air rights* is mostly used in real estate or legal terms. This is a pretty big deal in New York City and air rights can be extremely valuable. I thought the stories around Penn Station and Grand Central were particularly interesting.
 
 I've been expanding the term air rights to be more about how people (or entities) can own negative spaces. I think it's fascinating that And no one can own the molecules in the air that are freely flowing and affecting every thing that breathes. No one really rules the air. They can try to regulate the air space (drones, planes, flight zones), reduce pollution in the air (greenhouse gas or pollution regulation, carbon sequestering), decide how human-made structures fill the space, and whatnot. There are a lot of actions big & small that affect the air quality and who gets to use these spaces.
 
-![our air](/assets/temp-exp/your-air-my-air.jpg)
+![our air]({{ site.baseurl }}/assets/temp-exp/your-air-my-air.jpg)
 
 The impact on air is collective. And it seems to be pretty much driven by money. Everything I looked at in regards to air rights or ownership really ties back to being involved in an economic system.
 
@@ -33,7 +33,7 @@ I thought it would be good to talk to people who have seen first hand what highe
 
 In their eyes, my main concern here is about mitigating *negative externalities*. These are harmful side effects to third parties caused by economic activity. Air pollution is a very good example. Essentially, whoever is doing business does not pay the full cost of whatever it takes to produce their goods.
 
-![externalities](/assets/temp-exp/negative-externalities.png)
+![externalities]({{ site.baseurl }}/assets/temp-exp/negative-externalities.png)
 
 Companies won't really spend money to fix or prevent negative externalities unless it helps to bring them more business or is regulated by the government. Examples of the former are companies like Patagonia that promote their environmentalist values because it creates brand loyalty with their customers that share these values.
 
@@ -71,18 +71,18 @@ It's interesting how air rights is shaping the development of -->
 
 ### Economic Systems
 
-![duchamp bond](/assets/temp-exp/duchamp-bond.jpg)
+![duchamp bond]({{ site.baseurl }}/assets/temp-exp/duchamp-bond.jpg)
 [Monte Carlo Bond, Marcel Duchamp (1924)](https://www.toutfait.com/unmaking_the_museum/Monte%20Carlo%20Bond.html)
 
 ### Nature and Control
 
-![eels](/assets/temp-exp/eels-max-hooper.jpg)
+![eels]({{ site.baseurl }}/assets/temp-exp/eels-max-hooper.jpg)
 [Dielectrix I: Division Electrophorus, Max Hooper Schneider, (2016)](http://www.artnews.com/2016/10/07/a-shock-to-the-system-at-team-gallery-max-hooper-schneider-lets-electric-eels-control-the-lighting/)
 
-![I could be a good boyfriend](/assets/temp-exp/trevor-yeung-encyc.jpg)
+![I could be a good boyfriend]({{ site.baseurl }}/assets/temp-exp/trevor-yeung-encyc.jpg)
 [I could be a good boyfriend, Trevor Yeung (2013)](http://trevoryeung.net/index.php?/past/trevor-yeungs-encyclopedia/)
 
-![White ](/assets/temp-exp/Trevor-Yeung-White-Acanthus-Installation-shot-2017-Porcelain-stoneware-cotton-rattan-Dimensions-variable-Courtesy-of-the-Artist-and-Blindspot-Gallery-9999x700.jpg)
+![White ]({{ site.baseurl }}/assets/temp-exp/Trevor-Yeung-White-Acanthus-Installation-shot-2017-Porcelain-stoneware-cotton-rattan-Dimensions-variable-Courtesy-of-the-Artist-and-Blindspot-Gallery-9999x700.jpg)
 [White Acanthus, Trevor Yeung (2017)](http://trevoryeung.net/index.php?/little-plant/acanthus/)
 
 - [fish tanks](http://artasiapacific.com/Blog/DecoratingAFishTankAConversationWithTrevorYeung)
@@ -93,7 +93,7 @@ It's interesting how air rights is shaping the development of -->
 - Real Estate Legal
   - [Contemporary Real Estate Law by C. Kerry Fields and Kevin C. Fields, page 24]( https://books.google.com/books?id=KvdJDwAAQBAJ&lpg=PA25&dq=%22air%20rights%22%20law&pg=PA26#v=onepage&q=%22air%20rights%22%20law&f=false)
   - [Real Estate Law by Marianne Jennings, page 42]( https://books.google.com/books?id=GTKpQz95KM8C&lpg=PA43&dq=%22air%20rights%22&pg=PA42#v=onepage&q=%22air%20rights%22&f=false)
-  - [Unlocking the Right to Build: Designing a More Flexible System for Transferring Development Rights] (http://furmancenter.org/research/publication/unlocking-the-right-to-build-designing-a-more-flexible-system-for-transferr)
+  - [Unlocking the Right to Build: Designing a More Flexible System for Transferring Development Rights](http://furmancenter.org/research/publication/unlocking-the-right-to-build-designing-a-more-flexible-system-for-transferr)
 - Architecture
   - [Selling the Sky: “Air Rights” Take Strange Bites Out of Big Apple Architecture](https://99percentinvisible.org/article/selling-sky-air-rights-take-strange-bites-big-apple-architecture/)
   - [From Heaven to Hell: Exploring the Odd Vertical Limits of Land Ownership](https://99percentinvisible.org/article/heaven-hell-exploring-odd-vertical-limits-land-ownership/)
