@@ -29,6 +29,7 @@ permalink: :title/
 markdown: kramdown
 kramdown:
 input: GFM
+syntax_highlighter: rouge
 include:
   - "_pages"
   - "assets"

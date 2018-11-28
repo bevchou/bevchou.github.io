@@ -7,7 +7,7 @@ categories:
 - Computational Approaches to Typography
 tags:
 - Javascript
-- Bluets
+- Opentype.js
 meta:
 author:
    Beverly
