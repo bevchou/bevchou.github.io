@@ -21,6 +21,8 @@ author:
 
 I experimented with using font outline data to create some simple reactions to the user. In the second row, the mouse position causes the straight lines in each letter to warp towards the mouse. In the third row, the more you click the more the lines expand away from the curves.
 
+<!--more-->
+
 I played with a couple different kinds of font data this week before getting to this point, but I didn't really document it ): I took a look at how the [Hershey fonts](https://github.com/techninja/hersheytextjs) data worked because I really liked the name of all the fonts and the old school feel. The main thing to know about this Hershey font data is:
 
 - "M" is move your metaphorical pencil to that position
@@ -35,8 +37,6 @@ Each coordinate comes with an "M" or "L", so it's pretty straightforward. There'
 - "Z" is to where to end the path
 
 I did try the [example code for the filled-in, animated letters](https://editor.p5js.org/allison.parrish/sketches/Hy3-Iqm67), but liked dealing with the outlines much more. So I started with [this of example code to draw letter outlines](https://editor.p5js.org/allison.parrish/sketches/BklobgCO67).
-
-<!--more-->
 
 Here is the key code snippet for the warping letter is this.
 
