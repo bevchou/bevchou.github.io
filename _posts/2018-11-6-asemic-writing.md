@@ -4,7 +4,7 @@ title: Asemic Writing
 date: 2018-11-6
 type: post
 categories:
-- Computational Approaches to Typogrpahy
+- Computational Approaches to Typography
 tags:
 - Javascript
 - p5.js

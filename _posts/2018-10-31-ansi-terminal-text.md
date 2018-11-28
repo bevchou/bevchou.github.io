@@ -4,7 +4,7 @@ title: ANSI Terminal Text
 date: 2018-10-31
 type: post
 categories:
-- Computational Approaches to Typogrpahy
+- Computational Approaches to Typography
 tags:
 - Javascript
 - ANSI

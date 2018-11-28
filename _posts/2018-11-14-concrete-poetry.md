@@ -4,7 +4,7 @@ title: Concrete Poetry
 date: 2018-11-14
 type: post
 categories:
-- Computational Approaches to Typogrpahy
+- Computational Approaches to Typography
 tags:
 - Javascript
 - Bluets
