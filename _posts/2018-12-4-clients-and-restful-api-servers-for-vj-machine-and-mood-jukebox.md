@@ -13,16 +13,16 @@ author:
    Beverly
 ---
 
-![vj demo](/assets/und-networks/vj-demo.gif)
+<video src ="{{ site.baseurl }}/assets/und-networks/vj-demo.mp4" loop="loop"></video>
 
 For the VJ machine, [Ellen](https://ellennickles.com/itpblog/?category=Understanding%20Networks) and [Ridwan](https://www.ridwanmadon.com/blog/category/UnderstandingNetworks) built the API server and the screen output. Their code is on [Ellen's repo](https://github.com/ellennickles/understanding-networks/tree/master/RESTful_project/super-cool-vj-machine). Alden and I built the controller interface. Basically the controller sends POST requests to the server which is storing info on the state of the VJ machine. Then the screen output is constantly pulling with GET requests to update the visuals. Our code for the VJ machine is [here](https://github.com/miamiww/RESTfulStuff/tree/master/VJInterface).
 
 <!-- {{ site.baseurl }} -->
-![vj interface](/assets/und-networks/vj-interface.png)
+![vj interface]({{ site.baseurl }}/assets/und-networks/vj-interface.png)
 
 We also worked with [Vidia](http://blog.vidianindhita.com/category/itp-fall-2018/understanding-networks/) and [Lucas](http://chung.work/blog/understanding-networks/) on their Mood Jukebox. Their API is available on [Vidia's repo](https://github.com/vidianindhita/mood-jukebox-api). We built their Jukebox website which functions both as the controller and the output client.
 
-![mood jukebox](/assets/und-networks/mood-jukebox.png)
+![mood jukebox]({{ site.baseurl }}/assets/und-networks/mood-jukebox.png)
 
 The jukebox sends a GET to get a song based on the mood and receives a reply with a song that is determined by the API server. Then the site will send a POST request to add the new song to the playlist. The jukebox site is pulling from the server using GET requests to keep the playlist updated and to determine if the jukebox state is in play mode. To change the state to play music, the site makes a PUT request when the user hits the play button, which returns the first song in the playlist. All the songs (sung by Lucas) were served from the sever so we didn't need to worry querying another source for music.
 
@@ -40,11 +40,10 @@ server.use(cors());
 
 When I was working with the Jukebox, I was unable to change the code on the server side, so I used a workaround called [CORS Anywhere](https://github.com/Rob--W/cors-anywhere). I used https://cors-anywhere.herokuapp.com/ as a proxy that adds headers to the request so it doesn't trigger CORS. For all the requests you make, you put the CORS Anywhere URL before the URL of your server.
 
-```
+{% highlight javascript %}
 //make a request to
  https://cors-anywhere.herokuapp.com/http://1.1.1.1.1:8000/mydata/is/here
-
-```
+{% endhighlight %}
 
 ## Axios - Easiest way to make HTTP requests?
 
@@ -88,7 +87,7 @@ I was really confused when I couldn't get Ellen and Ridwan's VJ server code to r
 
 {% highlight javascript %}
 //IN THE SERVER.JS FILE
-//the file with your secrets in your directory that also has server.js
+//the file with your secrets (same directory as server.js)
 var config = require('./config.js');
 
 //get your API key without exposing it
