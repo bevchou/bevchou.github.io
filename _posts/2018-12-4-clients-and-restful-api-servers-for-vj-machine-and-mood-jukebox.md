@@ -13,7 +13,7 @@ author:
    Beverly
 ---
 
-<video src ="{{ site.baseurl }}/assets/und-networks/vj-demo.mp4" loop="loop"></video>
+<video src ="{{ site.baseurl }}/assets/und-networks/vj-demo.mp4" loop autoplay></video>
 
 For the VJ machine, [Ellen](https://ellennickles.com/itpblog/?category=Understanding%20Networks) and [Ridwan](https://www.ridwanmadon.com/blog/category/UnderstandingNetworks) built the API server and the screen output. Their code is on [Ellen's repo](https://github.com/ellennickles/understanding-networks/tree/master/RESTful_project/super-cool-vj-machine). Alden and I built the controller interface. Basically the controller sends POST requests to the server which is storing info on the state of the VJ machine. Then the screen output is constantly pulling with GET requests to update the visuals. Our code for the VJ machine is [here](https://github.com/miamiww/RESTfulStuff/tree/master/VJInterface).
 
@@ -111,5 +111,4 @@ And make a  .gitignore file that lists any files you want to hide. For instance:
 .DS_Store
 node_modules/
 config.js
-
 ```
