@@ -26,7 +26,9 @@ We also worked with [Vidia](http://blog.vidianindhita.com/category/itp-fall-2018
 
 The jukebox sends a GET to get a song based on the mood and receives a reply with a song that is determined by the API server. Then the site will send a POST request to add the new song to the playlist. The jukebox site is pulling from the server using GET requests to keep the playlist updated and to determine if the jukebox state is in play mode. To change the state to play music, the site makes a PUT request when the user hits the play button, which returns the first song in the playlist. All the songs (sung by Lucas) were served from the sever so we didn't need to worry querying another source for music.
 
-I'll go over some of the main things we ran into while working on this project.
+Keep reading for more details on things we encountered while working on this project (CORS, Axios, and hiding your API key).
+
+<!--more-->
 
 ## CORS
 
