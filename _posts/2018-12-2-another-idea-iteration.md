@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Plans for Final
+title: Another Idea Iteration
 date: 2018-12-2
 type: post
 categories:
