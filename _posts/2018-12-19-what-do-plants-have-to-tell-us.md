@@ -15,7 +15,7 @@ author:
 
 ![closeup1](/assets/temp-exp/final-closeup1.jpg)
 
-This "final project" is definitely more of a piece in the process than an end-all. It is a tank full of air cleaning plants (golden pothos, aloe vera, sansevieria) that are trying to promote their value in a way that humans understand, which is through monetary value. The plants in the tank are able to support one person, so based on an extremely generalized calculation, I determined that my plants were producing about $0.01 per hour.
+This "final project" is definitely more of a piece in the process than an end-all. It is a tank full of air cleaning plants (golden pothos, aloe vera, sansevieria) that are trying to promote their value in a way that humans understand, which is through monetary value. They have little LCD screens to display their messages. The plants in the tank are able to support one person, so based on an extremely generalized calculation, I determined that my plants were producing about $0.01 per hour.
 
 ![full view](/assets/temp-exp/final-fullview.jpg)
 
