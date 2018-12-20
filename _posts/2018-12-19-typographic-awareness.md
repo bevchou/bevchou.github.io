@@ -22,7 +22,7 @@ For my final, I combined my finals projects for Live Web and Computational Appro
 
 ## Playing with Type
 
-![demo gif](/assets/comp-typo/typo-awareness-demo.gif)
+![demo gif]({{ site.baseurl }}/assets/comp-typo/typo-awareness-demo.gif)
 
 I started by writing the code to create the interactions I wanted users to have. Mainly I wanted users to mouse over blocks of text and have it look like it was rippling. Here is a basic overview on how my code works:
 
@@ -41,7 +41,7 @@ All the final code for the Chrome extension is [here](https://github.com/bevchou
 
 ## Adding more users with Peer.js
 
-![demo gif](/assets/live-web/final-demo.gif)
+![demo gif]({{ site.baseurl }}/assets/live-web/final-demo.gif)
 
 The site is up [here](https://itp.beverlychou.com/live-web/final_v_1_website/) as long as my peer server is still running.
 
