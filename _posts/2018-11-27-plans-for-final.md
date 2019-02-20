@@ -18,6 +18,8 @@ I'd like to create a small ecosystem inside of a tall terrarium that mostly cons
 
 ![sketch]({{ site.baseurl }}/assets/temp-exp/terrarium-sketch.jpg)
 
+<!--more-->
+
 If I have time, I'd like to try to implement a way for people to buy & sell their air rights after the initial sale has finished. I wanted to use actual money, but I'm struggling to find a way to automate the exchange of small amounts of money for this system. I think I'd either need to find an alternate source of currency (like bits of personal info or fake $) or have a more manual exchange (like approving users after a Venmo exchange). In the spirit of making it more accessible, I will probably use fake currency. The system will be very simplified.
 
 ![values]({{ site.baseurl }}/assets/temp-exp/values-system.jpg)

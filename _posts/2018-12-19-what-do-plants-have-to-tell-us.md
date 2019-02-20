@@ -19,6 +19,8 @@ This "final project" is definitely more of a piece in the process than an end-al
 
 ![full view](/assets/temp-exp/final-fullview.jpg)
 
+<!--more-->
+
 ## Presentation Slides
 
 [Presentation slides are here.](/assets/temp-exp/final-slides.pdf)

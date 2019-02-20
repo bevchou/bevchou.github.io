@@ -17,6 +17,8 @@ My previous idea definitely had some holes in it regard to why people would find
 
 I think major idea around of air rights is that there is value in the potential of the space to become a development that will have a bigger return on investment. I want to use this same logic but think about valuing the potential of the space to be preserved. Because we live in a country of capitalism, how do we to put a value on preservation that is competitive with development?
 
+<!--more-->
+
 The concept of ecosystem services or natural capital tries to answer that. To me this is basically how environmental scientists are trying to translate the importance of our natural ecosystems to policy makers (& other economic influencers) through those $$$$ values. In regards to air, plants (especially larger areas of woodland, rainforests, etc) provide air purification services, which is considered a regulating service. Tony Jupiter's DEFRA report also refers to the addition of trees in urban ecosystems as "green infrastructure" that improve air quality, drainage, noise pollution, uptake carbon, etc.
 
 Ok so the updated idea! I still want to keep my container of plants, but have the plants promote the natural capital that they are generating. They are connected to little translation devices with little LCD screens that allow them to communicate with us.
