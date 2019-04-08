@@ -48,7 +48,7 @@ There are a couple of behaviors that I noticed while using the Google Home Mini.
 | 6-9 | Ask Google Home to play music. |
 | 9-12 | Close Chrome. Allow music to continue playing. |
 | 12-15 | Ask Google Home to stop music. Allow for ambient sound and talking. No direct interaction. |
-| 15-17 | Ask Google Home a couple really specific questions about the animal behaviors of tiger salamanders. |
+| 15-17 | Ask Google Home a couple really weird specific questions. |
 | 17-20 | Ask Google to play music again. |
 
 And here is a beautifully formatted Excel plot of the data captured over time by protocol.
@@ -91,7 +91,7 @@ In terms of the Google Home, it sent a series of 2-3 mDNS packets approximately 
 
 ![]({{ site.baseurl }}/assets/und-networks/packetsniff-mDNS-only.png)
 
-The Google Home was able to answer all my really specific questions about tiger salamanders (15-17 minutes on the chart) without sending queries at the exact moment I asked the question. I think it might be continuously listening (and caching) and then continuously bringing back results. And then if it senses the hot word (because it's always listening) it can tell me the relevant answer it has cached away. I'm not quite sure, but it's sort of weird that it isn't sending or receiving packets at the moment I ask questions.
+The Google Home was able to answer all my really weird specific questions (15-17 minutes on the chart) without sending queries at the exact moment I asked the question. I think it might be continuously listening (and caching) and then continuously bringing back results. And then if it senses the hot word (because it's always listening) it can tell me the relevant answer it has cached away. I'm not quite sure, but I expected that it would send or receive packets at the moment I ask questions that are uncommon.
 
 So who is 224.0.0.251???? It's a [multicasting IP](https://www.iana.org/assignments/multicast-addresses/multicast-addresses.xhtml). According to Wikipedia, "IP multicast is a technique for one-to-many and many-to-many real-time communication over an IP infrastructure in a network." The packets show the Google Home is talking to services called "\_googlecast.\_tcp.local" and "\_googlezone.\_tcp.local" that are also sending info to 224.0.0.251. There is info in the query response packets that include my Google Home's unique id, and I think that is how it identifies the relevant data to grab.
 
